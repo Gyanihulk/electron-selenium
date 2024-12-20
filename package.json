@@ -1,0 +1,56 @@
+{
+  "name": "electron-linkedin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "build": "electron-forge package",
+    "make": "electron-forge make"
+   
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.6.0",
+    "@electron-forge/maker-deb": "^7.6.0",
+    "@electron-forge/maker-rpm": "^7.6.0",
+    "@electron-forge/maker-squirrel": "^7.6.0",
+    "@electron-forge/maker-zip": "^7.6.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.6.0",
+    "@electron-forge/plugin-fuses": "^7.6.0",
+    "@electron/fuses": "^1.8.0",
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8",
+    "electron-chromedriver": "^32.2.6",
+    "selenium-webdriver": "^4.27.0"
+  },
+  "dependencies": {
+    "chromedriver": "^131.0.4",
+    "electron-squirrel-startup": "^1.0.1"
+  },
+  "build": {
+    "appId": "com.example.electron-linkedin",
+    "files": [
+      "build/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "./node_modules/chromedriver/lib/chromedriver/",
+        "to": "resources/chromedriver",
+        "filter": ["**/*"]
+      }
+    ]
+  },
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        { "name": "@electron-forge/maker-zip", "platforms": ["darwin", "linux"] },
+        { "name": "@electron-forge/maker-squirrel", "platforms": ["win32"] }
+      ]
+    }
+  }
+}
