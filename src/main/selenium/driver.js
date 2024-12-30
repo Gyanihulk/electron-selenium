@@ -18,21 +18,4 @@ console.log(service,"service")
     return driver;
 }
 
-async function performTask() {
-    try {
-        let driver = await initializeDriver();
-        await driver.get('https://www.google.com');
-        console.log('Page Title:', await driver.getTitle());
-
-        // Wait for demonstration
-        await driver.sleep(3000);
-    } catch (error) {
-        console.error('Selenium error:', error);
-    } finally {
-        if (driver) {
-            await driver.quit();
-        }
-    }
-}
-
-module.exports = { performTask };
+module.exports={initializeDriver}

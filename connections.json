@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Gargi Pal",
+    "connectedTime": "Connected 4 minutes ago",
+    "messageSent": false
+  },
+  {
+    "name": "Avneet Singh Sidhu",
+    "connectedTime": "Connected 6 hours ago",
+    "messageSent": false
+  },
+  {
+    "name": "Subhajit Das",
+    "connectedTime": "Connected 9 hours ago",
+    "messageSent": false
+  },
+  {
+    "name": "Tanisha Garg",
+    "connectedTime": "Connected 12 hours ago",
+    "messageSent": false
+  },
+  {
+    "name": "Shubham Sand",
+    "connectedTime": "Connected 21 hours ago",
+    "messageSent": false
+  },
+  {
+    "name": "Gargi Pal",
+    "connectedTime": "Connected 7 minutes ago",
+    "messageSent": true
+  },
+  {
+    "name": "Avneet Singh Sidhu",
+    "connectedTime": "Connected 6 hours ago",
+    "messageSent": true
+  },
+  {
+    "name": "Subhajit Das",
+    "connectedTime": "Connected 9 hours ago",
+    "messageSent": true
+  },
+  {
+    "name": "Tanisha Garg",
+    "connectedTime": "Connected 12 hours ago",
+    "messageSent": true
+  },
+  {
+    "name": "Shubham Sand",
+    "connectedTime": "Connected 21 hours ago",
+    "messageSent": true
+  },
+  {
+    "name": "Gargi Pal",
+    "connectedTime": "Connected 12 minutes ago",
+    "messageSent": false
+  }
+]

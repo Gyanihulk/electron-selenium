@@ -2,12 +2,14 @@
   "name": "electron-linkedin",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "src/main/main.js",
   "scripts": {
-    "start": "electron-forge start",
-    "build": "electron-forge package",
-    "make": "electron-forge make"
-   
+    "start": "concurrently \"yarn start:react\" \"yarn start:electron\"",
+    "start:react": "react-scripts start",
+    "start:electron": "wait-on http://localhost:3000 && electron .",
+    "build": "yarn build:react && electron-forge package",
+    "build:react": "react-scripts build",
+    "make": "yarn build:react && electron-forge make"
   },
   "author": "",
   "license": "ISC",
@@ -20,14 +22,20 @@
     "@electron-forge/plugin-auto-unpack-natives": "^7.6.0",
     "@electron-forge/plugin-fuses": "^7.6.0",
     "@electron/fuses": "^1.8.0",
+    "concurrently": "^9.1.0",
     "electron": "^33.2.1",
     "electron-builder": "^25.1.8",
     "electron-chromedriver": "^32.2.6",
-    "selenium-webdriver": "^4.27.0"
+    "selenium-webdriver": "^4.27.0",
+    "wait-on": "^8.0.1"
   },
   "dependencies": {
     "chromedriver": "^131.0.4",
-    "electron-squirrel-startup": "^1.0.1"
+    "dotenv": "^16.4.7",
+    "electron-squirrel-startup": "^1.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "^5.0.1"
   },
   "build": {
     "appId": "com.example.electron-linkedin",
@@ -40,7 +48,9 @@
       {
         "from": "./node_modules/chromedriver/lib/chromedriver/",
         "to": "resources/chromedriver",
-        "filter": ["**/*"]
+        "filter": [
+          "**/*"
+        ]
       }
     ]
   },
@@ -48,9 +58,32 @@
     "forge": {
       "packagerConfig": {},
       "makers": [
-        { "name": "@electron-forge/maker-zip", "platforms": ["darwin", "linux"] },
-        { "name": "@electron-forge/maker-squirrel", "platforms": ["win32"] }
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin",
+            "linux"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "platforms": [
+            "win32"
+          ]
+        }
       ]
     }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
