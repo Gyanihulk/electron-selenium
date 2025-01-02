@@ -28,7 +28,7 @@ async function catchUpWithFirst15People(driver) {
             }
         }
     } catch (error) {
-        console.error("Error while connecting with people:", error);
+        console.error("Error while catching up  with people:", error);
     }
 }
 

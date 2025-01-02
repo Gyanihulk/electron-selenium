@@ -1,7 +1,7 @@
 {
   "name": "electron-linkedin",
   "version": "1.0.0",
-  "description": "",
+ "description": "A LinkedIn automation app built with Electron and Selenium.",
   "main": "src/main/main.js",
   "scripts": {
     "start": "concurrently \"yarn start:react\" \"yarn start:electron\"",
@@ -11,7 +11,7 @@
     "build:react": "react-scripts build",
     "make": "yarn build:react && electron-forge make"
   },
-  "author": "",
+  "author": "GyaniHUlk",
   "license": "ISC",
   "devDependencies": {
     "@electron-forge/cli": "^7.6.0",

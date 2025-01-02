@@ -2,10 +2,8 @@ require('dotenv').config();
 const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('node:path');
 const { performTask } = require('./selenium');
+require('./ipcHandlers');
 
-const startSeleniumTest = () => {
-  window.electron.ipcRenderer.send('start-selenium-test');
-};
 
 const createWindow = () => {
   const mainWindow = new BrowserWindow({
@@ -43,12 +41,14 @@ app.on('window-all-closed', () => {
 });
 
 
-ipcMain.on('start-selenium-test', async (event) => {
-  console.log('IPC message received: Starting Selenium test...');
-  try {
-    await performTask();
-    console.log('Selenium test completed.');
-  } catch (error) {
-    console.error('Selenium test failed:', error);
-  }
-});
+
+
+// ipcMain.on('send-connection-request', async (event) => {
+//   console.log('IPC message received: send-connection-request');
+//   try {
+//     performTask("connect");
+
+//   } catch (error) {
+//     console.error('Seleniumfailed:', error);
+//   }
+// });

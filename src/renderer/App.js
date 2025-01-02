@@ -2,14 +2,21 @@ import React from 'react';
 
 
 function App() {
-  const startSeleniumTest = () => {
-    window.electron.ipcRenderer.send('start-selenium-test');
+  const sendNewConnectionRequests = () => {
+    window.electron.ipcRenderer.send('send-connection-request');
   };
-
+  const followUpNewConnectionRequests = () => {
+    window.electron.ipcRenderer.send('follow-up-new-connection');
+  };
+  const catchUpNewConnections = () => {
+    window.electron.ipcRenderer.send('catch-up-connections');
+  };
   return (
     <div>
       <h1>Electron + React App</h1>
-      <button onClick={startSeleniumTest}>Run Selenium Test</button>
+      <button onClick={sendNewConnectionRequests}>Send Connection Requests</button>
+      <button onClick={followUpNewConnectionRequests}>Follow up New Connection Requests</button>
+      <button onClick={catchUpNewConnections}>Catch Up Connections </button>
     </div>
   );
 }

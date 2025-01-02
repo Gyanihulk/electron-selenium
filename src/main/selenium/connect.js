@@ -6,6 +6,20 @@ async function randomDelay() {
     return new Promise((resolve) => setTimeout(resolve, delay));
 }
 
+async function closeToastIfPresent(driver) {
+    try {
+        const toast = await driver.findElement(By.css(".artdeco-toasts_toasts"));
+        if (toast) {
+            console.log("Toast message detected. Attempting to close...");
+            const closeButton = await toast.findElement(By.css(".artdeco-toast-item__dismiss"));
+            await driver.executeScript("arguments[0].click();", closeButton);
+            console.log("Toast message closed successfully.");
+        }
+    } catch (error) {
+        console.log("No toast message found or already dismissed.");
+    }
+}
+
 async function connectWithFirst15People(driver) {
     try {
         let peopleConnected = 0;
@@ -29,6 +43,9 @@ async function connectWithFirst15People(driver) {
                         const connectButton = await connectSpan.findElement(By.xpath("ancestor::button"));
 
                         await driver.executeScript("arguments[0].click();", connectButton);
+
+                        // Wait for potential toast message and close it
+                        await closeToastIfPresent(driver);
 
                         connected = true;
                         peopleConnected++;

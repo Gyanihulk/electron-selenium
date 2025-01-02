@@ -1,17 +1,21 @@
-// selenium/index.js
 const { initializeDriver } = require("./driver");
 const { performLogin } = require("./login");
 const { loadCookies } = require("./cookies");
 const { navigateToMyNetwork, navigateToMyCatchUp } = require("./navigation");
 const { connectWithFirst15People } = require("./connect");
 const fs = require("fs");
-const { extractConnections } = require("./followUpConnections");
+const { followUpNewlyConnectedConnections } = require("./followUpConnections");
 const { catchUpWithFirst15People } = require("./catchUp");
 
-async function performTask() {
+/**
+ * Perform task based on the given parameter.
+ * @param {string} task - The task to perform. Options: "connect", "followUp", "catchUp".
+ */
+async function performTask(task) {
     const driver = await initializeDriver();
 
     try {
+        // Common: Load cookies or perform login
         if (fs.existsSync("cookies.json")) {
             await loadCookies(driver);
             await driver.get("https://www.linkedin.com/feed");
@@ -19,14 +23,25 @@ async function performTask() {
             await performLogin(driver);
         }
 
-        // await navigateToMyNetwork(driver);
-        // await connectWithFirst15People(driver);
+        // Task-specific logic
+        switch (task) {
+            case "connect":
+                await navigateToMyNetwork(driver);
+                await connectWithFirst15People(driver);
+                break;
 
+            case "followUp":
+                await followUpNewlyConnectedConnections(driver);
+                break;
 
-        // await extractConnections(driver);
+            case "catchUp":
+                await navigateToMyCatchUp(driver);
+                await catchUpWithFirst15People(driver);
+                break;
 
-        await navigateToMyCatchUp(driver)
-        await catchUpWithFirst15People(driver);
+            default:
+                console.error("Invalid task parameter. Please provide one of: 'connect', 'followUp', 'catchUp'.");
+        }
     } catch (error) {
         console.error("Error during processing:", error);
     } finally {

@@ -2,7 +2,7 @@
 const { By,until } = require("selenium-webdriver");
 const fs = require('fs');
 const { randomDelay } = require("../../lib/randomDelay");
-async function extractConnections(driver) {
+async function followUpNewlyConnectedConnections(driver) {
     console.log("Navigating to connections page...");
     await driver.get('https://www.linkedin.com/mynetwork/invite-connect/connections/');
 
@@ -69,7 +69,7 @@ Beyond development, I'm also a mentor helping entrepreneurs bring their products
 
 Feel free to take a look at my profile to learn more about my journey and expertise. Looking forward to exploring potential collaborations!
 
-Best,
+Best Regards,
 Adamya Kumar
 `;
         await messageBox.sendKeys(customMessage);
@@ -130,4 +130,4 @@ function hasMessageBeenSent(name, savedConnections) {
     return existingConnection ? existingConnection.messageSent : false;
 }
 
-module.exports={extractConnections}
+module.exports={followUpNewlyConnectedConnections}

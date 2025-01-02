@@ -3,6 +3,7 @@ const { FuseV1Options, FuseVersion } = require('@electron/fuses');
 
 module.exports = {
   packagerConfig: {
+    extraResource: ['node_modules/selenium-webdriver'],
     asar: true,
   },
   rebuildConfig: {},
