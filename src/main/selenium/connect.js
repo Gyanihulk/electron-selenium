@@ -68,6 +68,7 @@ async function connectWithFirst15People(driver) {
                 await randomDelay();
             }
         }
+        await driver.quit();
     } catch (error) {
         console.error("Error while connecting with people:", error);
     }

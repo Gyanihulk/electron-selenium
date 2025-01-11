@@ -34,4 +34,15 @@ ipcMain.on('catch-up-connections', async (event) => {
         event.reply('catch-up-connections-request-failure', error.message);
     }
 });
+
+ipcMain.on('withdraw-connections', async (event) => {
+    console.log('IPC message received: withdraw-connections');
+    try {
+        performTask("withdraw");
+        event.reply('catch-up-connections-request-success', 'Task completed successfully.');
+    } catch (error) {
+        console.error('Selenium failed:', error);
+        event.reply('catch-up-connections-request-failure', error.message);
+    }
+});
 module.exports = {}; 
