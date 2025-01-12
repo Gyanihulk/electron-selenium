@@ -1,0 +1,9 @@
+{
+  "posts": [],
+  "errors": [
+    {
+      "message": "General error while scraping posts.",
+      "details": "Cannot read properties of undefined (reading 'generatePostComment')"
+    }
+  ]
+}
