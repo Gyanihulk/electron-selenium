@@ -7,6 +7,7 @@ const fs = require("fs");
 const { followUpNewlyConnectedConnections } = require("./followUpConnections");
 const { catchUpWithFirst15People } = require("./catchUp");
 const { withdrawConnections } = require("./withdrawConnections");
+const { scrapePosts } = require("./feed");
 
 /**
  * Perform task based on the given parameter.
@@ -39,10 +40,16 @@ async function performTask(task) {
                 await navigateToMyCatchUp(driver);
                 await catchUpWithFirst15People(driver);
                 break;
+            case "fetchPosts":
+                await scrapePosts(driver)
+                // await withdrawConnections(driver);
+                break;
             case "withdraw":
                
                 await withdrawConnections(driver);
                 break;
+
+            
             default:
                 console.error("Invalid task parameter. Please provide one of: 'connect', 'followUp', 'catchUp'.");
         }

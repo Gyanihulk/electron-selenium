@@ -1,0 +1,834 @@
+{
+  "posts": [
+    {
+      "postId": "urn:li:activity:7283807912337022978",
+      "url": "https://www.linkedin.com/in/harshadshah1953?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAANLqhoBpJGjyFZAkkjwebM4iOE7Tu8wSG4",
+      "name": "Harshad Shah\nHarshad Shah",
+      "content": "This is in response to *Larsen & Toubro* Chairman S.N. *Subrahmanyan’s *advice to employees* to *work 90 hours a week*—amounting to 18 hours a day for a 5-day workweek or 16.5 hours a day for a 6-day workweek—and his statement about “*not staring at your wife*.”\nQuestions to L&T Chairman and Management:\n1.     Does Labour Law apply to you?\nIndian labor laws explicitly prohibit such long working hours. How do you justify this statement within the legal framework?\n2.     Do you care about employee well-being and mental health?\nExtended work hours have proven detrimental to physical and mental health. Does L&T prioritize profits over the health of its employees?\n3.     Does L&T respect work-life balance?\nAdvising employees to ignore their spouses and families undermines the very essence of a balanced life. Is this the culture you wish to foster?\n\nSome Stark Contrasts: The Chairman earned ₹51 crore in FY24, which is 534.57 times the median salary of peers. Is it fair to demand such grueling commitments from employees while enjoying an astronomical pay disparity?\n\nSuggesting employees not engage with their spouses reflects insensitivity, potentially leading to strained relationships, higher divorce rates, and broken families.\n\nQuestions for Aspiring Employees:\nWhy should any sensible, qualified individual choose to work at *L&T* under such oppressive expectations?\n\nEven history’s harshest regimes, like Hitler’s, didn’t impose such unrealistic commitments.\nAre employees to be treated as slaves in modern India?\n\nMessage to Stakeholders:\nIt’s time to re-evaluate relationships with Larsen & Toubro—whether as employees, investors, or suppliers.\nA culture that prioritizes exploitation over humanity deserves neither talent nor support.\nGovt of India being single largest shareholder thru PSUs (like LIC, Insurance Companies etc.) should ask Subrahmanyan to quit L & T or sack him to show the Capitalists treating Employees as SLAVES way out.",
+      "reactions": {
+        "likes": "3,105",
+        "comments": "370 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    },
+    {
+      "postId": "urn:li:activity:7282401059501752320",
+      "url": "https://www.linkedin.com/company/advanced-environmental-monitoring/posts",
+      "name": "AEM\nAEM",
+      "content": "If you’re in mining operations, you know weather monitoring, data, and alerting are key to both employee safety and regulatory compliance. Without the proper planning, equipment, and mitigation, severe weather can flood a mine, damage equipment, injure workers, or disperse unintended pollutants.",
+      "reactions": {
+        "likes": "49",
+        "comments": "2 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "I agree🤗",
+          "userName": "ANKITA RAJ",
+          "userProfileURL": "https://www.linkedin.com/in/ankita-raj-48738630a",
+          "dataId": "urn:li:comment:(activity:7282401059501752320,7284117592661798912)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7283430135574241280",
+      "url": "https://www.linkedin.com/company/corporatebhakt/posts",
+      "name": "The Corporate Bhakt ™️\nThe Corporate Bhakt ™️",
+      "content": "And here goes the future of AI! 😳\n\nOver the course of a month, the bot applied to 1,000 jobs and secured 50 interview opportunities.\n\nVia\n\nRead:",
+      "reactions": {
+        "likes": "657",
+        "comments": "24 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "How many of these 50 interview calls were from bots :) Human recruiters are not that quick to get back.",
+          "userName": "Gunanidhi Hegde",
+          "userProfileURL": "https://www.linkedin.com/in/gunanidhihegde",
+          "dataId": "urn:li:comment:(activity:7283430135574241280,7283464280237076506)"
+        },
+        {
+          "commentText": "Gunanidhi Hegde on spot 😁 ",
+          "userName": "Om Shukla (CSCP, CLTD, PMP)",
+          "userProfileURL": "https://www.linkedin.com/in/omkumarshukla",
+          "dataId": "urn:li:comment:(activity:7283430135574241280,7283483788779692032)"
+        },
+        {
+          "commentText": "It says “Wake up to 50 interviews” and than “50 Interviews in a month” so this post may not be true completely",
+          "userName": "Sunil Khatri",
+          "userProfileURL": "https://www.linkedin.com/in/skhatri",
+          "dataId": "urn:li:comment:(activity:7283430135574241280,7284017661229834241)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7283746466815164416",
+      "url": "https://www.linkedin.com/in/zoran-gasic?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA4SznoBhKr27MznUQvSYxHbi3n57lPgft8",
+      "name": "Zoran Gasic\nZoran Gasic",
+      "content": "I would rather hire a junior developer(s) who knows or wants to learn TDD but doesn’t know the technology (programming language) than a senior developer(s) specialized in a certain technology who doesn’t know and refuses to learn TDD! The first one will very quickly produce cleaner and higher-quality software than the second one!",
+      "reactions": {
+        "likes": "56",
+        "comments": "178 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "This is a false dichotomy. You can have clean without TDD. And you can have a mess when using TDD.",
+          "userName": "Adam Dymitruk",
+          "userProfileURL": "https://www.linkedin.com/in/eventmodeling",
+          "dataId": "urn:li:comment:(activity:7283528143334760448,7283746454131687424)"
+        },
+        {
+          "commentText": "Adam Dymitruk It’s possible to end up with a mess with TDD if the developer is irresponsible or if he doesn’t know to test. However, it’s highly unlikely to have a clean, reliable and flexible codebase with a responsible developer who doesn’t use TDD!.\n\nI can prove my point by providing a bigger source code where the clarity, correctness and flexibility will be obvious. But can you prove your statement with a some bigger source code example (I am not asking for diagrams but for a code!)?",
+          "userName": "Zoran Gasic",
+          "userProfileURL": "https://www.linkedin.com/in/zoran-gasic",
+          "dataId": "urn:li:comment:(activity:7283528143334760448,7283825815291637760)"
+        },
+        {
+          "commentText": "Adam Dymitruk how do you have confidence in your refactoring into clean code if you don't have tests?",
+          "userName": "Gérôme Parmentier",
+          "userProfileURL": "https://www.linkedin.com/in/g%C3%A9r%C3%B4me-parmentier-a83a94237",
+          "dataId": "urn:li:comment:(activity:7283528143334760448,7283896433928224768)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7279229441338220545",
+      "url": "https://www.linkedin.com/company/amazon-web-services/posts",
+      "name": "Amazon Web Services (AWS)\nAmazon Web Services (AWS)",
+      "content": "Turn data into your competitive advantage with \nhashtag\n#generativeAI on \nhashtag\n#AWS. Join industry leaders at the AWS AI Conclave and spark innovation in your organization.",
+      "reactions": {
+        "likes": "595",
+        "comments": "19 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "I'm Intersted",
+          "userName": "Swarna Deepika Kalyani Vijjapureddy",
+          "userProfileURL": "https://www.linkedin.com/in/swarna-deepika-kalyani-vijjapureddy-3b1737246",
+          "dataId": "urn:li:comment:(activity:7279229441338220545,7283481260436398081)"
+        },
+        {
+          "commentText": "Swarna Deepika Kalyani Vijjapureddy send me cv on whatsaap number 97204 38244",
+          "userName": "Anshu Sharma",
+          "userProfileURL": "https://www.linkedin.com/in/anshu-sharma-416916344",
+          "dataId": "urn:li:comment:(activity:7279229441338220545,7284074056906145792)"
+        },
+        {
+          "commentText": "I am very interested for this job profile ",
+          "userName": "Shubham Kumar",
+          "userProfileURL": "https://www.linkedin.com/in/shubham-kumar-1037bb190",
+          "dataId": "urn:li:comment:(activity:7279229441338220545,7282441425676378112)"
+        },
+        {
+          "commentText": "Shubham Kumar send me cv on whatsaap number 97204 38244",
+          "userName": "Anshu Sharma",
+          "userProfileURL": "https://www.linkedin.com/in/anshu-sharma-416916344",
+          "dataId": "urn:li:comment:(activity:7279229441338220545,7284074017957769216)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7284123560862699520",
+      "url": "https://www.linkedin.com/in/vipulsonya?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-zAL4Bm6dL-MzlaLarXmeLrgtx4nDBNRk",
+      "name": "Vipul Sonya\nVipul Sonya",
+      "content": "Aata Majhi Satkali 🐅 🐅 \n\nNow I will show you what PVMA means!\n\nWho said “UPMA” ? 🥣",
+      "reactions": {
+        "likes": "18",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    },
+    {
+      "postId": "urn:li:activity:7282697983790370818",
+      "url": "https://www.linkedin.com/company/indianstartupnews/posts",
+      "name": "Indian Startup News\nIndian Startup News",
+      "content": "Satya Nadella-led Microsoft plans to invest $3 billion or over Rs 25,000 crore in India in cloud and AI infrastructure and skilling over the next two years, including the establishment of new data centres.\n\nThe investment aims to accelerate AI innovation in India, which is pivotal for achieving Hon’ble Prime Minister Narendra Modi’s vision of becoming a developed nation (Viksit Bharat) by 2047.\n\nIt will also support the country’s long-term competitiveness by training 10 million people over the next five years with AI skills, as part of the second edition of its ADVANTA(I)GE India program.\n\nRead the full story here:👇",
+      "reactions": {
+        "likes": "3,684",
+        "comments": "62 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "Indian Startup News It's essential to distinguish between future plans and current realities. Statements like \"Microsoft will invest\" refer to future intentions, not present actions. As of now, Microsoft has announced plans to invest $3 billion over the next two years to enhance its cloud and AI infrastructure in India.\n\nWhile this commitment is promising, it's crucial to focus on the tangible benefits that existing cloud AI capabilities offer today. Microsoft's current AI infrastructure is already being utilized to enhance public services, improve healthcare delivery, and support educational initiatives.\n\nBlindly applauding announcements of future investments without understanding their current impact reflects a desire for immediate gratification, akin to expecting instant deliveries. Instead, let's engage thoughtfully with the present capabilities and consider how they can be leveraged for societal benefit. This approach fosters a more informed and proactive community, ready to utilize technology effectively rather than passively awaiting future developments.\n\nIn summary, while future investments are encouraging, it's the present applications of cloud AI that hold immediate potential for societal welfare. Let's focus on that",
+          "userName": "Bharath Kumar Kunjibettu",
+          "userProfileURL": "https://www.linkedin.com/in/bharath-kumar-kunjibettu-23283b198",
+          "dataId": "urn:li:comment:(activity:7282697983790370818,7283118331769901057)"
+        },
+        {
+          "commentText": "Bharath Kumar Kunjibettu 💐 ",
+          "userName": "Shri Vaasudev Hare Krisshn. Chairman at Group. World For Indians.",
+          "userProfileURL": "https://www.linkedin.com/in/shrivaasudevharekrisshn",
+          "dataId": "urn:li:comment:(activity:7282697983790370818,7283879154805100544)"
+        },
+        {
+          "commentText": "\"Microsoft’s $3 billion investment in India’s AI and cloud infrastructure is a significant step toward empowering the nation’s digital future. Initiatives like training 10 million individuals in AI skills will undoubtedly drive innovation and help realize the vision of 'Viksit Bharat' by 2047. At, we’re excited about the opportunities this brings for technology growth and collaboration in India!\"",
+          "userName": "AppXcess Technologies",
+          "userProfileURL": "https://www.linkedin.com/company/appxcess-technologies/posts",
+          "dataId": "urn:li:comment:(activity:7282697983790370818,7282705486368415745)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7169252762474463234",
+      "url": "https://www.linkedin.com/company/iit-patna-edu/posts",
+      "name": "Executive Programs\nExecutive Programs",
+      "content": "Be future ready! Stay on the cutting edge of technology with an Executive M.Tech in Cloud Computing from IIT Patna, India’s leading institute!\n\nCourse Eligibility\nShould have a/ MSc (Comp Sc/IT) / MCA degree. Must hold a bachelor's degree, with at least 60% marks or equivalent CGPA (or CPI).\nShould be a working professional with at least two years of industry experience.",
+      "reactions": {
+        "likes": "2,944",
+        "comments": "12 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "🎯Internship Opportunity Alert!!\n\n🌟Register now to grab internship in various domains using this link: https://forms.gle/ecr6NiVQ9Wawv3et9",
+          "userName": "Nexware Solutions",
+          "userProfileURL": "https://www.linkedin.com/company/nexware-solutions/posts",
+          "dataId": "urn:li:comment:(activity:7169252762474463234,7250786735415054338)"
+        },
+        {
+          "commentText": "Hello guys, Any one interesting to start career in EMTech in cloud computing from IIT Patna. Then DM me ….or whatsapp me (7978173962)",
+          "userName": "Debashis panda",
+          "userProfileURL": "https://www.linkedin.com/in/debashis-panda-449a60277",
+          "dataId": "urn:li:comment:(activity:7169252762474463234,7275826697940123648)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7283679953072615424",
+      "url": "https://www.linkedin.com/in/mprubin?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAVPodMBUtqMZcfiJFcGBLqSoTNABT1shOI",
+      "name": "Mike Rubin, MD, PhD, CFA\nMike Rubin, MD, PhD, CFA",
+      "content": "One thing that we all have in common is that we…\n\n…err at times.\n\nThis is not a sign of weakness, but rather a sign that we are willing to venture and learn.\n\nThe best thing we can do both for ourselves and others is:\n\nTake accountability.\n\nYes, it is a sign of contrition\n\nYet more importantly\n\nIt is a sign of self-respect and self-efficacy\n\nIt is a statement of self-trust\n\nThat we can handle our setbacks and have confidence in our ability to rectify them.\n\nSo rather than try to conceal our missteps\n\nLet’s celebrate them,\n\nOr at least aknowledge them\n\nand\n\nHold ourselves accountable.\n\nIt will accelerate our growth\n\nand\n\nEnhance our credibility in the eyes of those whom we wish to ingratiate.",
+      "reactions": {
+        "likes": "670",
+        "comments": "118 comments",
+        "shares": "0"
+      },
+      "mediaUrl": "blob:https://www.linkedin.com/5acb4dac-903f-4a34-8535-f8f0b8659435",
+      "comments": [
+        {
+          "commentText": "Such cuteness! Love the message Mike Rubin, MD, PhD, CFA! Nothing ventured, nothing gained. Let’s be graceful, admit, move on.",
+          "userName": "Tim Hillison",
+          "userProfileURL": "https://www.linkedin.com/in/timhillison",
+          "dataId": "urn:li:comment:(ugcPost:7283635409509597186,7283679886722899968)"
+        },
+        {
+          "commentText": "Tim Hillison >> Select Best Job For You - https://rb.gy/1rmsdz\n >> For More Job Update, Join Here - https://rb.gy/v7ah6j",
+          "userName": "Get Your Job",
+          "userProfileURL": "https://www.linkedin.com/company/get-your-job1/posts",
+          "dataId": "urn:li:comment:(ugcPost:7283635409509597186,7283741443213451265)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7283108736288628736",
+      "url": "https://www.linkedin.com/in/sai-ram-somanaboina?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmBwooB4WCZpTsTScZQmG-KxRVDIWg_nA0",
+      "name": "Sai Ram Somanaboina\nSai Ram Somanaboina",
+      "content": "I don’t hire developers by looking at how green their GitHub graph is and here’s why…\n\nA greener GitHub contribution graph doesn’t mean higher skills or deeper expertise.\n\nLet me tell you why:\n\n1. Many teams use private repositories like Bitbucket or internal tools. Everything is mostly private. If they could show those commits, their graph would be green every day.\n\n2. Students and junior developers often use GitHub to showcase their projects, challenges, or learning milestones.\n\nThat’s great, but it doesn’t automatically mean they’re “better” than someone with a gray graph who’s been solving real-world problems for years.\n\n3. git commits can be backdated or faked. A few commands and your GitHub can look like you’ve been coding non-stop for years. Does that show skill? No.\n\n4.A graph won’t tell me how you debug tough issues, work with a team, or handle edge cases in production.\n\nWhat actually matters to me?\n\n- Your problem-solving skills. Can you write clean, maintainable, and scalable code?\n- Your mindset. Are you curious and eager to learn?\n- Your collaboration. Can you work with others to build great software?\n- Your impact. Do you understand the \"why\" behind what you're building?\n\nGreen graphs are cool to look at, but they’re not the full story.\n\nAnd developers, if your GitHub isn’t “green enough,” don’t let that hold you back.\n\nFocus on building great things, public or private.\n\nWhat do you think? Do green graphs matter in hiring? Let me know below!",
+      "reactions": {
+        "likes": "1,127",
+        "comments": "88 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "Image source: https://medium.com/@olyaB/making-your-github-green-again-dab6f414b04b",
+          "userName": "Sai Ram Somanaboina",
+          "userProfileURL": "https://www.linkedin.com/in/sai-ram-somanaboina",
+          "dataId": "urn:li:comment:(activity:7283108736288628736,7283108916693975041)"
+        },
+        {
+          "commentText": "📌 Frontend Development Roadmap for 2025 (updated)(FREE)\nhttps://topmate.io/sai_ram_somanaboina/1336146",
+          "userName": "Sai Ram Somanaboina",
+          "userProfileURL": "https://www.linkedin.com/in/sai-ram-somanaboina",
+          "dataId": "urn:li:comment:(activity:7283108736288628736,7283111082196418560)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7282005197961187328",
+      "url": "https://www.linkedin.com/company/eigenplus/posts",
+      "name": "eigenplus\neigenplus",
+      "content": "🔧 Understanding Different Types of Shear Stirrups in RCC Structures\n\nWhen it comes to reinforced concrete design, shear stirrups play a crucial role in resisting shear forces and preventing failure in beams and columns.\n\nThe type of stirrup arrangement you choose depends on the structural requirements. Here's a breakdown:\n\n1️⃣ One-Legged Stirrup:\nSimplest form, typically used for light reinforcement requirements.\n\nCommonly seen in isolated sections or specific structural elements.\n\n2️⃣ Two-Legged Stirrup:\nA widely used configuration.\nProvides enhanced shear resistance for beams and columns.\n\n3️⃣ Three-Legged Stirrup:\nIdeal for sections with higher shear force demands.\nAdds additional shear capacity by increasing the number of shear-resisting bars.\n\n4️⃣ Four-Legged Stirrup:\nMaximum reinforcement provided for shear forces.\nUsed in heavy-loaded structures where high shear strength is critical.\n\nWhy does this matter?\nThe choice of stirrup arrangement directly impacts the structural integrity and load-bearing capacity of the element.\n\nUnderstanding this ensures safer designs and efficient material usage.\n\n✨ Share your thoughts: Which stirrup arrangement do you commonly use, and in what scenarios?",
+      "reactions": {
+        "likes": "3,573",
+        "comments": "50 comments",
+        "shares": "0"
+      },
+      "mediaUrl": "blob:https://www.linkedin.com/7c2774c7-5637-41c0-95d4-6d793f9984db",
+      "comments": [
+        {
+          "commentText": "I commonly use two-legged stirrups due to their simplicity, cost-effectiveness, and quick installation in standard beams. For higher shear demands, three-legged or four-legged stirrups are preferred, especially in heavy-load structures.",
+          "userName": "Pranav Bhatale",
+          "userProfileURL": "https://www.linkedin.com/in/pranavbhatale",
+          "dataId": "urn:li:comment:(ugcPost:7282005089693683712,7282293510769160193)"
+        },
+        {
+          "commentText": "Pranav Bhatale perfectly said. ",
+          "userName": "eigenplus",
+          "userProfileURL": "https://www.linkedin.com/company/eigenplus/posts",
+          "dataId": "urn:li:comment:(ugcPost:7282005089693683712,7282310151582199808)"
+        },
+        {
+          "commentText": "Don´t forget the maximum distance rule for stirrups in the width of the section (300 mm)",
+          "userName": "Pieter Baekeland",
+          "userProfileURL": "https://www.linkedin.com/in/pieter-baekeland-12169813",
+          "dataId": "urn:li:comment:(ugcPost:7282005089693683712,7282364520113606656)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7276942771007991810",
+      "url": "https://www.linkedin.com/company/ozonetel/posts",
+      "name": "Ozonetel | oneCXi\nOzonetel | oneCXi",
+      "content": "🚀 Transform Customer Engagement with CXi Switch!\n\nWhat's CXI Switch?\nCXi Switch is the game-changing solution for INSTANT voice and digital conversations that redefine customer experiences.\n\nWhy CXi Switch?\n✔ Instant Engagement: One-click conversations across all customer touchpoints.\n✔ Seamless Integration: Works with your existing telephony system.\n✔ Versatile: Add to apps, websites, ads, emails, and more.\n✔ Full Control: Manage interactions across the customer lifecycle.\n\n💡 Try it for FREE – See how CXi Switch transforms your CX.\n\n👉 Fill out the form to get started!",
+      "reactions": {
+        "likes": "180",
+        "comments": "4 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "\"CXi Switch is a revolutionary leap in customer engagement! 🌟 Its promise of instant voice and digital conversations redefines how businesses connect with their audience.\n\nThe blend of seamless integration and versatility ensures that CXi Switch fits effortlessly into existing systems while extending its magic across apps, websites, emails, and beyond. The power to manage customer interactions throughout the entire lifecycle offers unparalleled control, making it a true game-changer for CX strategies.\n\nTrying it for FREE is a no-brainer—experience how CXi Switch can elevate your customer experience to extraordinary levels. 🚀 Don't miss the future of customer engagement!\"",
+          "userName": "Sanjeev kumar",
+          "userProfileURL": "https://www.linkedin.com/in/sanjeev-kumar-b6a470238",
+          "dataId": "urn:li:comment:(activity:7276942771007991810,7280546754524000256)"
+        },
+        {
+          "commentText": "https://tazatimesnews.live/youtube-premium-for-free/uncategorized/",
+          "userName": "HIMANSHU SHARMA",
+          "userProfileURL": "https://www.linkedin.com/in/himanshu-sharma-554a69127",
+          "dataId": "urn:li:comment:(activity:7276942771007991810,7284126510947483648)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7283443962747523072",
+      "url": "https://www.linkedin.com/in/abdul-qadir-896808219?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADcdavIBl4Pxtd7o-XGcH8HwPkK3E0W6-T8",
+      "name": "Abdul Qadir\nAbdul Qadir",
+      "content": "➡Empathy is often seen as a \"soft\" skill, but in reality, it’s one of the most powerful tools we have at work. No matter the industry, whether you're in tech, finance, retail, or any other field, empathy can truly make a difference. It’s not something optional, it’s something essential.\n\n➡Why? Because at the end of the day, businesses are made up of people. And when we take the time to understand each other, everything works better. Empathy is about stepping into someone else’s shoes, understanding their challenges, and showing that you care. It’s about listening, not just hearing. It’s about offering support, not just instructions.\n\n➡In a workplace where empathy is part of the culture, you’ll see stronger collaboration, better communication, and a more motivated team. People feel valued when they know their concerns are understood. When managers lead with empathy, they build trust, and trust is the foundation of any strong team.\n\n➡But empathy isn’t just for leaders—it’s for everyone. Colleagues who show empathy towards each other create a positive work environment. When someone’s having a tough day, a little understanding can go a long way. It reduces stress, boosts morale, and helps everyone feel like they’re part of something bigger.\n\n➡Empathy also impacts decision-making. When we consider how our actions affect others, we make choices that benefit the whole team, not just ourselves. This leads to better outcomes for the business and a more supportive atmosphere for everyone.\n\n➡In industries that are fast-paced and high-pressure, empathy might seem like a luxury. But the truth is, it’s a necessity. It doesn’t take much time to show empathy, and the return on that investment is huge—better relationships, stronger teams, and a healthier work environment.\n➡\nSo let’s stop treating empathy like a \"nice-to-have\" Because when we lead with empathy, we make the workplace better for everyone. And that’s something every industry needs. I always remember the great advise I've got from my mentor \"Kindness is free, meanness cost a fortune!",
+      "reactions": {
+        "likes": "1,313",
+        "comments": "48 comments",
+        "shares": "0"
+      },
+      "mediaUrl": "blob:https://www.linkedin.com/ee0ad992-d0e4-48f9-9566-f0d834da4773",
+      "comments": [
+        {
+          "commentText": "If someone doesn't try to fix this job market soon, the cops are going to be seeing a lot more incidents like this.....this country is about one more bad day from exploding....",
+          "userName": "Robert Snell",
+          "userProfileURL": "https://www.linkedin.com/in/robert-snell-630266312",
+          "dataId": "urn:li:comment:(ugcPost:7283443925204291584,7284144530101047296)"
+        },
+        {
+          "commentText": "This video should become a staple in every police training format across the board, hands down.",
+          "userName": "Dawn Carlyle",
+          "userProfileURL": "https://www.linkedin.com/in/dawn-carlyle-a808452a2",
+          "dataId": "urn:li:comment:(ugcPost:7283443925204291584,7283988911989694464)"
+        },
+        {
+          "commentText": "Paul Doreika And to think my whole life I’ve been under the impression that taking oath as a police officer meant putting your own life at risk to protect the lives of others. ",
+          "userName": "Dawn Carlyle",
+          "userProfileURL": "https://www.linkedin.com/in/dawn-carlyle-a808452a2",
+          "dataId": "urn:li:comment:(ugcPost:7283443925204291584,7284132541207396352)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7284108852046839808",
+      "url": "https://www.linkedin.com/groups/762547?q=highlightedFeedForGroups&highlightedUpdateUrn=urn%3Ali%3AgroupPost%3A762547-7284108212486762496",
+      "name": "Big Data 🟥 Data Science | Machine Learning | Deep Learning | Artificial Intelligence\nBig Data 🟥 Data Science | Machine Learning | Deep Learning | Artificial Intelligence",
+      "content": "𝗖𝗵𝗲𝗰𝗸 𝗼𝘂𝘁 𝘁𝗵𝗶𝘀 𝗔𝗜-𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 𝗰𝗮𝘁 𝘃𝗶𝗱𝗲𝗼! 🐱\n𝗦𝗼 𝘀𝗮𝘁𝗶𝘀𝗳𝘆𝗶𝗻𝗴 𝘁𝗼 𝘄𝗮𝘁𝗰𝗵🎥\n\n\nAI is transforming marketing, proving that even marketing can be fun, engaging, and innovative.\n\nHere's how :\n\n1️⃣ 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗖𝗿𝗲𝗮𝘁𝗶𝗼n: AI can generate videos, images, and even written content, saving time and enabling teams to focus on strategy.\n2️⃣𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝘇𝗮𝘁𝗶𝗼𝗻: AI analyses user behaviour to deliver tailored recommendations and experiences, increasing engagement and conversion rates.\n3️⃣𝗣𝗿𝗲𝗱𝗶𝗰𝘁𝗶𝘃𝗲 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀: AI-driven insights help marketers anticipate trends and make data-driven decisions for better ROI.\n4️⃣𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻: AI tools streamline repetitive tasks like email campaigns, ad placement, and A/B testing, boosting efficiency.\n5️⃣𝗘𝗻𝗵𝗮𝗻𝗰𝗲𝗱 𝗖𝗿𝗲𝗮𝘁𝗶𝘃𝗶𝘁𝘆: AI unlocks new possibilities for creativity, like generating unique visuals, videos, or interactive experiences.\n\nThis cat video is more than just fun content—it’s a demonstration of AI’s power to captivate audiences and drive meaningful engagement.",
+      "reactions": {
+        "likes": "16",
+        "comments": "1 comment",
+        "shares": "0"
+      },
+      "mediaUrl": "blob:https://www.linkedin.com/6167c540-f1f7-4f46-ad9c-5a6ddc12be2d",
+      "comments": [
+        {
+          "commentText": "this video can motivate real cat to do the same thing. one day by using this method even animal can start speaking. crazy application of gen ai.",
+          "userName": "Aman K.",
+          "userProfileURL": "https://www.linkedin.com/in/amanmyuserid",
+          "dataId": "urn:li:comment:(groupPost:762547-7284108212486762496,7284139184649318402)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7284035893248565248",
+      "url": "https://www.linkedin.com/in/alvinfsc?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAJJnMBL0mIQG2Sz52q7ZH3vMzwh9rQC0A",
+      "name": "Alvin Foo\nAlvin Foo",
+      "content": "Harnessing the power of waves with a buoy concept.\n\nCredit : CorPower Ocean",
+      "reactions": {
+        "likes": "90",
+        "comments": "3 comments",
+        "shares": "0"
+      },
+      "mediaUrl": "blob:https://www.linkedin.com/da0e5576-6551-4f03-ad82-129f72d8ef2b",
+      "comments": [
+        {
+          "commentText": "Looks way better and more promising than ugly and inefficient windmills.",
+          "userName": "Adam Szotek",
+          "userProfileURL": "https://www.linkedin.com/in/adamszotek",
+          "dataId": "urn:li:comment:(ugcPost:7284010745736970241,7284123145358168064)"
+        },
+        {
+          "commentText": "Oof. That looks as unreliable as our toilet",
+          "userName": "Graham Gunderson",
+          "userProfileURL": "https://www.linkedin.com/in/graham-gunderson-eternalon",
+          "dataId": "urn:li:comment:(ugcPost:7284010745736970241,7284099355526025216)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7283412746149257216",
+      "url": "https://www.linkedin.com/company/stack-console/posts",
+      "name": "Stack Console\nStack Console",
+      "content": "As a cloud provider, you need a solution that simplifies management and drives growth. Stack Console offers a powerful white-label cloud management portal designed for Apache CloudStack, OpenStack, VMware, OpenNebula, and more. With advanced billing, seamless subscription management, and automated invoicing, we make cloud operations effortless.\n\nReady to transform your cloud business? Book a demo today!",
+      "reactions": {
+        "likes": "71",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    },
+    {
+      "postId": "urn:li:activity:7282889108614459392",
+      "url": "https://www.linkedin.com/in/konstantinsimonchik?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAN1jL4BHr48x5Xv5Ft-_NEOfVFE9cOf7HA",
+      "name": "Konstantin Simonchik\nKonstantin Simonchik",
+      "content": "Neither the document nor the background in this image are real! This is a fully AI-generated ID document with astonishing quality - even down to details like the smartphone’s shadow on the passport and the table.\n\nEmerging services on the Dark Web are creating alarming opportunities for fraudsters. These tools don’t just generate one deepfake image - they produce multiple ones from a simple list of PII, paving the way for synthetic fraud on an unprecedented scale.\n\nIt’s crucial for modern KYC services and assessment procedures to adapt and account for these advancements in fraud technology. Staying ahead requires constant vigilance and innovation.",
+      "reactions": {
+        "likes": "11,799",
+        "comments": "789 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "The advent of AI's capability to generate fraudulent documents on demand has significantly heightened the risk of fraud. This situation underscores the urgent need for the establishment of reliable, government-operated open validation services. These services should extend beyond just local, state, and federal government agencies to include educational institutions, medium to large corporations, and certification bodies. To combat this growing threat effectively, such validation services ought to be regulated and provided as a mandatory, free service to ensure widespread accessibility and security.",
+          "userName": "Ido Adler",
+          "userProfileURL": "https://www.linkedin.com/in/iadler",
+          "dataId": "urn:li:comment:(activity:7282759157286330369,7282889090872549376)"
+        },
+        {
+          "commentText": "Ido Adler >> Select Best Job For You - https://rb.gy/1rmsdz\n >> For More Job Update, Join Here - https://rb.gy/v7ah6j",
+          "userName": "Get Your Job",
+          "userProfileURL": "https://www.linkedin.com/company/get-your-job1/posts",
+          "dataId": "urn:li:comment:(activity:7282759157286330369,7283771144040566784)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7282586635341307904",
+      "url": "https://www.linkedin.com/in/vibha-harish-cosmix?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB_3A0kBUpniJ38X26GR-9LTvhr24jqTi5Q",
+      "name": "Vibha Harish\nVibha Harish",
+      "content": "See these ugly scoops? They're India’s First Biodegradable Scoops in a protein pack! 🌱\n\nNow found in every packet of's No-Nonsense Plant Protein, I'll admit our new scoops aren't the prettiest. It’s just what happens when you use compostable granules derived from plant-based materials to make scoops. You get the convenience of traditional plastic, but the assuredness of knowing that you’re using biodegradable materials that leave behind no waste– just nutrient-rich soil.\n\nAs someone who loves cute pinteresty designs, it was tough for me to deprioritize it for anything. I even tried to make them cute – different colours, fun patterns – until I realized that I was straying from the main point.\n\nAt the end of the day, these ugly scoops are the ones that made it to your pack - because functionality >>> aesthetics (that won’t stop me from spending all my time on Pinterest though)",
+      "reactions": {
+        "likes": "1,808",
+        "comments": "139 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "Can we please get the scoops outside the pack, it gets difficult to take out the scoop after delivery - it's lost down inside most of the time.",
+          "userName": "Yash Batra",
+          "userProfileURL": "https://www.linkedin.com/in/yashbatra96",
+          "dataId": "urn:li:comment:(activity:7282373836908478464,7282443761350037504)"
+        },
+        {
+          "commentText": "Yash Batra would love to do that and we’ve thought about it, but it becomes difficult for when it comes to being retail and quick commerce ready. I’m sure there are ways to solve and we’ll continue trying",
+          "userName": "Vibha Harish",
+          "userProfileURL": "https://www.linkedin.com/in/vibha-harish-cosmix",
+          "dataId": "urn:li:comment:(activity:7282373836908478464,7282459178630094848)"
+        },
+        {
+          "commentText": "Vibha just thinking out loud - the scoop could be attached to a pouch in a keychain format small pouch (with scoop) attached to the big protein pouch/bag.",
+          "userName": "Yash Batra",
+          "userProfileURL": "https://www.linkedin.com/in/yashbatra96",
+          "dataId": "urn:li:comment:(activity:7282373836908478464,7282463413266509824)"
+        },
+        {
+          "commentText": "This is a great move. Would be interesting to know if there were any cost implications. ",
+          "userName": "Arpita Yadav",
+          "userProfileURL": "https://www.linkedin.com/in/arpita-yadav-india",
+          "dataId": "urn:li:comment:(activity:7282373836908478464,7282393663807111168)"
+        },
+        {
+          "commentText": "Arpita Yadav hey Arpita! The plastic scoop costed us 7 rupees and the biodegrade one costs 19.5 rupees. It was a tough decision because we didn’t change the protein MRP for the customer. Also had to really think it through because we run with not-so-hefty margins while always staying profitable. That was a thoughtful question ☺️",
+          "userName": "Vibha Harish",
+          "userProfileURL": "https://www.linkedin.com/in/vibha-harish-cosmix",
+          "dataId": "urn:li:comment:(activity:7282373836908478464,7282735559460954112)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7274726935161679872",
+      "url": "https://www.linkedin.com/company/garware-hitech-films-limited/posts",
+      "name": "GHFL [Garware Hi-Tech Films Limited • Worldwide]\nGHFL [Garware Hi-Tech Films Limited • Worldwide]",
+      "content": "The Business Accelerator Meet was a huge success, filled with insightful discussions and impactful collaborations!\n\nTogether, we’re creating new opportunities and driving growth and innovation. Here’s to building even stronger partnerships and achieving greater milestones ahead!\n\nA heartfelt thank you to all our Business Partners for making this event a grandeur!",
+      "reactions": {
+        "likes": "13,986",
+        "comments": "235 comments",
+        "shares": "0"
+      },
+      "mediaUrl": "blob:https://www.linkedin.com/6afe6147-1776-4b29-aa1f-e577e5bac969",
+      "comments": [
+        {
+          "commentText": "Interesting event.",
+          "userName": "Kamaljeet Kour",
+          "userProfileURL": "https://www.linkedin.com/in/kamaljeet-kour-17b056267",
+          "dataId": "urn:li:comment:(ugcPost:7274726713169768448,7282430095028301826)"
+        },
+        {
+          "commentText": "Kamaljeet Kour Urgent Hiring \n \n hashtag#Work from Home \n \n We are seeking highly motivated and dedicated individuals to join our team. If you're a fresh graduate or a seasoned professional looking for a new challenge, we want to hear from you!\n\nhashtag#Qualifications:\nBBA, BE, BSC, BA, BCA,graduates\nhashtag#Freshers and 12th passouts are also eligible\n\n\nHiring for BDA and Senior BDA (REMOTE - 4 TO 5 LPA CTC)\n\n(We preferred only those candidates who want to do BCA, BSC, BA, BBA,graduates, MBA, MCA with JOB)\n\nCompany name - TWOSS Learning Private Limited\n\nworking days- 5 days (sat, sun off)\n\nDesignation: Business Development Associates and Senior Business Development Associates\n\nLocation: REMOTE, WFH\n\nExperience: 0 months to 1 years\n\nQualification: 12th , Graduation in any stream\nCTC: up to 4 LPA fixed + up to 3 LPA variable.\nup to 5 LPA fixed + up to 3 LPA variable.\nApply here: comment \"interested\" or send me your resume on Email-or on WhatsApp- 8935846196",
+          "userName": "Kajal Kumari",
+          "userProfileURL": "https://www.linkedin.com/in/kajal-kumari-878598345",
+          "dataId": "urn:li:comment:(ugcPost:7274726713169768448,7283489290674679808)"
+        },
+        {
+          "commentText": "Am interested",
+          "userName": "Devesh Thakur",
+          "userProfileURL": "https://www.linkedin.com/in/devesh-thakur-9346bb259",
+          "dataId": "urn:li:comment:(ugcPost:7274726713169768448,7282752533079465985)"
+        },
+        {
+          "commentText": "Devesh Thakur Attention‼️\n📱 Earning Opportunity 📱\n*HARSHAL* this side from *HR department*\n👩💻 Work from home opportunity 👨💻\n💸 Earn Upto 25k - 30k+ 💸🤑\n🕰️ Flexible Working Hours = /month\n\nFor more details 👆 DM me Fast\nWhatsApp link and Number\n7145418779",
+          "userName": "Harshal Bagde",
+          "userProfileURL": "https://www.linkedin.com/in/harshal-bagde-379194346",
+          "dataId": "urn:li:comment:(ugcPost:7274726713169768448,7283563904968937472)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7284109747211919360",
+      "url": "https://www.linkedin.com/company/corporatebhakt/posts",
+      "name": "The Corporate Bhakt ™️\nThe Corporate Bhakt ™️",
+      "content": "The Supreme Court said on Thursday that it had previously expressed its opinions on whether those who have profited from quotas should be barred from receiving more reservations, and that it is now up to the legislature and government to decide whether it should be implemented.\n\nPresiding over a two-judge bench, Justice BR Gavai stated, “We have given our view that taking into consideration the past 75 years, such persons who have already availed benefits and are in a position to compete with others, should be excluded from reservation. But it is a call to be taken by the executive and the legislature.”\n\nVia\nRead:\n\nIf reservation has not been able to uplift those who received its benefits for 75 years, then reservation isn't working or needs to be vanished completely.",
+      "reactions": {
+        "likes": "160",
+        "comments": "10 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "Why the reservation system is based on caste why not on the net income a family earns.",
+          "userName": "Pragya Thakur",
+          "userProfileURL": "https://www.linkedin.com/in/pragyasees",
+          "dataId": "urn:li:comment:(activity:7284109747211919360,7284143007119929344)"
+        },
+        {
+          "commentText": "Exactly. How long will they keep asking for reservation over some past thing🤕",
+          "userName": "The Indian Story",
+          "userProfileURL": "https://www.linkedin.com/company/voice-of-india/posts",
+          "dataId": "urn:li:comment:(activity:7284109747211919360,7284110541139156992)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7283718471991836672",
+      "url": "https://www.linkedin.com/company/amk-andhanar-munnetra-kazhagam/posts",
+      "name": "Brahmin Political Party (AMK - Aravor Munnetra Kazhagam)\nBrahmin Political Party (AMK - Aravor Munnetra Kazhagam)",
+      "content": "Signup on Job DevaJobPortal.com",
+      "reactions": {
+        "likes": "3",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": "blob:https://www.linkedin.com/3ca2c87d-d4a8-45a1-91db-89740d92a47a",
+      "comments": []
+    },
+    {
+      "postId": "urn:li:activity:7283631026633949184",
+      "url": "https://www.linkedin.com/in/alisonwise?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAF34kB0ktkkzP9hNGQ_JqxugNmjJ02GeA",
+      "name": "Alison Wise\nAlison Wise",
+      "content": "I’m happy to share that I’m starting a new position as a Director at KeyLogic! I'll be working on fascinating projects with great people on energy transition strategies, with stakeholders like the National Energy Technology Laboratory (NETL) and many others. So excited and grateful to be starting the new year with this new role. Happy New Year!",
+      "reactions": {
+        "likes": "122",
+        "comments": "36 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "Best of luck",
+          "userName": "Jared Asch",
+          "userProfileURL": "https://www.linkedin.com/in/jaredasch",
+          "dataId": "urn:li:comment:(ugcPost:7283631025878978561,7283898529599705088)"
+        },
+        {
+          "commentText": "Good luck with your new role!",
+          "userName": "Heather Anderson",
+          "userProfileURL": "https://www.linkedin.com/in/heather-anderson-414041b",
+          "dataId": "urn:li:comment:(ugcPost:7283631025878978561,7283635706030092289)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7275234582583545856",
+      "url": "https://www.linkedin.com/showcase/microsoft-developers/posts",
+      "name": "Microsoft Developer\nMicrosoft Developer",
+      "content": "Create an Azure account and get cloud technology to simplify app development. Cancel anytime.",
+      "reactions": {
+        "likes": "84",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    },
+    {
+      "postId": "urn:li:activity:7283680564375613440",
+      "url": "https://www.linkedin.com/in/adamhousesr?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADBBIsBG7-lkFbi1fGEtLY1LvTk1agPTkU",
+      "name": "Adam House Sr.\nAdam House Sr.",
+      "content": "A Foundational Brick: Veterans\n\nOne of the strongest foundational bricks in the House of Bricks Community is our commitment to Veterans.\n\nEven if you didn’t serve your country, you can serve those who did.\n\nHere’s the thing: Veterans don’t need help.\n\nAfter watching this reel, you can’t tell me they can’t make a massive impact in your company.\n\nMy grandfather flew 51 successful missions in WWII.\n\nHis mindset, discipline, and most of all, his belief in me were instrumental in shaping who I am today.\n\nThat same mindset is what we carry forward in the House of Bricks®.\n\nThis isn’t a social club—it’s a community.\n\nWe are divided into units, serving as pillars of strength for one another, like an elite unit that grows stronger together.\n\nOur Veterans bring unmatched resilience, leadership, and dedication to our community.\n\nWe honor their service by building a legacy that reflects their values.\n\nTogether, we build.\n\nBrick by Brick®, we grow stronger.",
+      "reactions": {
+        "likes": "172",
+        "comments": "89 comments",
+        "shares": "0"
+      },
+      "mediaUrl": "blob:https://www.linkedin.com/42604302-e330-42c6-863b-37a836c5d564",
+      "comments": [
+        {
+          "commentText": "I’m having a tough time believing this is a real video.",
+          "userName": "Michael Kainatsky",
+          "userProfileURL": "https://www.linkedin.com/in/houseofbricks",
+          "dataId": "urn:li:comment:(ugcPost:7283664619733139456,7283680553734705152)"
+        },
+        {
+          "commentText": "Kenneth That would have made it epic. It is a reel but it certainly isn't real. ",
+          "userName": "Adam House Sr.",
+          "userProfileURL": "https://www.linkedin.com/in/adamhousesr",
+          "dataId": "urn:li:comment:(ugcPost:7283664619733139456,7283696176028119041)"
+        },
+        {
+          "commentText": "Michael Kainatsky me too - looks cool but I am doubtful this is real",
+          "userName": "Angela Brooks",
+          "userProfileURL": "https://www.linkedin.com/in/angelabrooks",
+          "dataId": "urn:li:comment:(ugcPost:7283664619733139456,7283709388266094592)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7282067110984323075",
+      "url": "https://www.linkedin.com/in/aditya-kamble-5732631b6?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADI6NWcBil3O0RQIlhETLI3slyicI_HOEi0",
+      "name": "Aditya Kamble\nAditya Kamble",
+      "content": "The Twists and Turns of Success: It's Not Always a Straight Line!\n\nSuccess is a journey marked by unexpected twists, turns, and detours. Understanding that success is not always a straight line is essential for maintaining resilience, adapting to challenges, and embracing the valuable lessons hidden in the curves of the road.\n\n1) Embracing Failure as a Stepping Stone:\n\nSuccess is seldom without setbacks. Failures and mistakes are not roadblocks but rather stepping stones on the journey to success. Each misstep provides an opportunity to learn, grow, and refine one's approach.\n\n2) Learning Through Adversity:\n\nThe road to success is often paved with adversity. Challenges, obstacles, and unexpected events are inevitable. It's in facing these adversities that individuals develop valuable skills, hone their problem-solving abilities, and build the mental fortitude necessary for long-term success.\n\n3) Iterative Progress:\n\nSuccess is rarely achieved in a single giant leap. Instead, it often involves incremental progress through continuous improvement. Each step forward, regardless of its size, contributes to the overall journey.\n\n4) Navigating Uncertainty:\n\nSuccessful individuals are those who can navigate this uncertainty with a combination of strategic planning, adaptability, and a willingness to pivot when necessary\n\n5) Reassessing Goals and Priorities:\n\nAs one progresses on the path to success, goals and priorities may evolve. What seemed like the pinnacle of success at the outset might shift as personal and professional landscapes change.\n\n6) Building a Support System:\n\nWhether it's mentors, peers, or a network of like-minded individuals, having a support system provides encouragement during challenging times and offers diverse perspectives that can prove invaluable on the journey.\n\nFollow",
+      "reactions": {
+        "likes": "2,288",
+        "comments": "94 comments",
+        "shares": "0"
+      },
+      "mediaUrl": "blob:https://www.linkedin.com/871f5310-7f63-43a8-913a-b6ab5ec8c797",
+      "comments": [
+        {
+          "commentText": "Follow Aditya Kamble",
+          "userName": "Aditya Kamble",
+          "userProfileURL": "https://www.linkedin.com/in/aditya-kamble-5732631b6",
+          "dataId": "urn:li:comment:(ugcPost:7282066963441274880,7282088350541320193)"
+        },
+        {
+          "commentText": "This scenario shows me that when you move forward without any obstacles, you may not achieve success very quickly. However, if you face many struggles in life, you will gain valuable experience and reach your destination even faster.",
+          "userName": "Prince Talukder",
+          "userProfileURL": "https://www.linkedin.com/in/prince-talukder",
+          "dataId": "urn:li:comment:(ugcPost:7282066963441274880,7284137457560834049)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7284123830749478912",
+      "url": "https://www.linkedin.com/in/sukhvindrasom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABfV8V4B9iFEPtF2-Qbd2K8LDWJL-4Vx2B4",
+      "name": "Sukhvindra Som\nSukhvindra Som",
+      "content": "Those who abuse Sanatan day and night despite being born in India, should see this..\nHow Lauren Powell, wife of Apple owner Steve Jobs, one of the richest women in the world, has come to India for 17 days of Kalpavas in Prayagraj Mahakumbh..",
+      "reactions": {
+        "likes": "171",
+        "comments": "12 comments",
+        "shares": "0"
+      },
+      "mediaUrl": "blob:https://www.linkedin.com/982bfee1-585b-49f5-ba5c-080390188340",
+      "comments": [
+        {
+          "commentText": "Let’s atleast use that to promote the religious tourism in India and make it better otherwise the tourism standards are quite bad in our country.",
+          "userName": "Abhijeet Kumar",
+          "userProfileURL": "https://www.linkedin.com/in/luckyabhi",
+          "dataId": "urn:li:comment:(ugcPost:7284097340636905472,7284141984313724929)"
+        },
+        {
+          "commentText": "Good promotion and hope the businesses make crores selling religion like opium during the mela period...😂",
+          "userName": "Rishabh G.",
+          "userProfileURL": "https://www.linkedin.com/in/rishabh-india",
+          "dataId": "urn:li:comment:(ugcPost:7284097340636905472,7284100626190422016)"
+        },
+        {
+          "commentText": "MAJOR (Dr) INDRANIL MUKHOPADHYAY Even the army and medical experience couldn't change yours, how do you expect me to change mine that too for the worse...🙏",
+          "userName": "Rishabh G.",
+          "userProfileURL": "https://www.linkedin.com/in/rishabh-india",
+          "dataId": "urn:li:comment:(ugcPost:7284097340636905472,7284105530053115904)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7281937468914888704",
+      "url": "https://www.linkedin.com/company/exeeduiima/posts",
+      "name": "Executive Education, IIM Ahmedabad\nExecutive Education, IIM Ahmedabad",
+      "content": "Are you a seasoned executive within the professional service industry, seeking to elevate your leadership acumen and make a lasting impact?\n\nJoin us atfor our exclusive programme on '𝗟𝗲𝗮𝗱𝗶𝗻𝗴 𝗣𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻𝗮𝗹 𝗦𝗲𝗿𝘃𝗶𝗰𝗲 𝗙𝗶𝗿𝗺𝘀' from February 10-12, 2025.\n\nTailored for senior executives working in professional service firms (PSFs) like management consulting, investment banking, legal, IT consulting, and more, this programme empowers you with strategies to:\n✅ Drive sustainable growth through strategic planning tailored for PSFs.\n✅ Cultivate trust-based cultures that enhance team dynamics and performance.\n✅ Strengthen client relationships to ensure loyalty and repeat business.\n✅ Enhance emotional intelligence to lead with empathy and impact.\n\nJoin us to gain the insights, tools, and frameworks needed to navigate the complexities of PSFs and drive sustainable success.\n\nLearn more & signup:",
+      "reactions": {
+        "likes": "76",
+        "comments": "6 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "Thanks for sharing",
+          "userName": "ASHUTOSH DUBEY",
+          "userProfileURL": "https://www.linkedin.com/in/ashutosh-dubey-3538371a0",
+          "dataId": "urn:li:comment:(activity:7281937468914888704,7282295686207881216)"
+        },
+        {
+          "commentText": "Great opportunity",
+          "userName": "Adapa Hemanth",
+          "userProfileURL": "https://www.linkedin.com/in/adapa-hemanth-a79874329",
+          "dataId": "urn:li:comment:(activity:7281937468914888704,7283158971438313472)"
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "postId": "urn:li:activity:7283807912337022978",
+      "url": "https://www.linkedin.com/in/harshadshah1953?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAANLqhoBpJGjyFZAkkjwebM4iOE7Tu8wSG4",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7282401059501752320",
+      "url": "https://www.linkedin.com/company/advanced-environmental-monitoring/posts",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7283430135574241280",
+      "url": "https://www.linkedin.com/company/corporatebhakt/posts",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7283746466815164416",
+      "url": "https://www.linkedin.com/in/zoran-gasic?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA4SznoBhKr27MznUQvSYxHbi3n57lPgft8",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7279229441338220545",
+      "url": "https://www.linkedin.com/company/amazon-web-services/posts",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7284123560862699520",
+      "url": "https://www.linkedin.com/in/vipulsonya?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-zAL4Bm6dL-MzlaLarXmeLrgtx4nDBNRk",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7282697983790370818",
+      "url": "https://www.linkedin.com/company/indianstartupnews/posts",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7169252762474463234",
+      "url": "https://www.linkedin.com/company/iit-patna-edu/posts",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7283108736288628736",
+      "url": "https://www.linkedin.com/in/sai-ram-somanaboina?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmBwooB4WCZpTsTScZQmG-KxRVDIWg_nA0",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7276942771007991810",
+      "url": "https://www.linkedin.com/company/ozonetel/posts",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7283412746149257216",
+      "url": "https://www.linkedin.com/company/stack-console/posts",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7282889108614459392",
+      "url": "https://www.linkedin.com/in/konstantinsimonchik?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAN1jL4BHr48x5Xv5Ft-_NEOfVFE9cOf7HA",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7282586635341307904",
+      "url": "https://www.linkedin.com/in/vibha-harish-cosmix?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB_3A0kBUpniJ38X26GR-9LTvhr24jqTi5Q",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7284109747211919360",
+      "url": "https://www.linkedin.com/company/corporatebhakt/posts",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7283631026633949184",
+      "url": "https://www.linkedin.com/in/alisonwise?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAF34kB0ktkkzP9hNGQ_JqxugNmjJ02GeA",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7275234582583545856",
+      "url": "https://www.linkedin.com/showcase/microsoft-developers/posts",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7281937468914888704",
+      "url": "https://www.linkedin.com/company/exeeduiima/posts",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    }
+  ]
+}

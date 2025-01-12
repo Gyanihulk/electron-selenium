@@ -11,8 +11,8 @@ function App() {
   const catchUpNewConnections = () => {
     window.electron.ipcRenderer.send('catch-up-connections');
   };
-  const withdrawConnections = () => {
-    window.electron.ipcRenderer.send('withdraw-connections');
+  const scrapePosts = () => {
+    window.electron.ipcRenderer.send('fetch-posts');
   };
   return (
     <div>
@@ -20,7 +20,7 @@ function App() {
       <button onClick={sendNewConnectionRequests}>Send Connection Requests</button>
       <button onClick={followUpNewConnectionRequests}>Follow up New Connection Requests</button>
       <button onClick={catchUpNewConnections}>Catch Up Connections </button>
-      <button onClick={withdrawConnections}>Withdraw old connections </button>
+      <button onClick={scrapePosts}>scrapePosts </button>
     </div>
   );
 }

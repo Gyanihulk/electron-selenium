@@ -1,0 +1,200 @@
+{
+  "posts": [
+    {
+      "postId": "urn:li:activity:7283430196085428224",
+      "url": "https://www.linkedin.com/company/corporatebhakt/posts",
+      "name": "The Corporate Bhakt ™️\nThe Corporate Bhakt ™️",
+      "content": "And here goes the future of AI! 😳\n\nOver the course of a month, the bot applied to 1,000 jobs and secured 50 interview opportunities.\n\nVia\n\nRead:",
+      "reactions": {
+        "likes": "655",
+        "comments": "24 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [],
+      "comments1": []
+    },
+    {
+      "postId": "urn:li:activity:7282169210997252096",
+      "url": "https://www.linkedin.com/company/samsungmobile/posts",
+      "name": "Samsung Mobile\nSamsung Mobile",
+      "content": "Sound on 🔊 A true AI companion is coming. Join us at Samsung Galaxy Unpacked on January 22, 2025. \nhashtag\n\n\nLearn more:",
+      "reactions": {
+        "likes": "4,494",
+        "comments": "64 comments",
+        "shares": "0"
+      },
+      "mediaUrl": "blob:https://www.linkedin.com/63853f08-5bf8-4dbf-b6e2-549ce691cd95",
+      "comments": [],
+      "comments1": []
+    },
+    {
+      "postId": "urn:li:activity:7284062086786105345",
+      "url": "https://www.linkedin.com/groups/121615?q=highlightedFeedForGroups&highlightedUpdateUrn=urn%3Ali%3AgroupPost%3A121615-7283856793313644544",
+      "name": "JavaScript\nJavaScript",
+      "content": "🐛 When Bug Fixing Turns Into Bug Multiplication 🤦‍♂️\n\nPicture this: You’ve been battling The Bug™ for hours. Sleepless nights, 100+ Stack Overflow tabs open, your coffee mug judging you for the refill count… and then, your team leader walks in. 😌\n\nYou think, Finally! Help has arrived 👨🏻‍🚒👨🏻‍🔧. The cavalry! The guru of all things code. Surely, the bug doesn’t stand a chance now.\nBUT THEN...\n\nYour team leader takes one look at the code, says, “Hmm, let me try something real quick.”\nAnd BAM 💥 not one, not two, but THREE new bugs magically appear.\n“Oh, uh… gotta run to a meeting. Good luck!” 😳\n\nAnd just like that, you’re left staring at a disaster zone. Your single bug is now a family of bugs, thriving and happy in your code. 🐞🐛\n\nMoral of the story ? Sometimes the best help is no help at all. 😂\n\nDevelopers, have you ever had a “helpful” intervention turn into bug chaos ? Share your stories below, et’s laugh through the pain together!",
+      "reactions": {
+        "likes": "388",
+        "comments": "9 comments",
+        "shares": "0"
+      },
+      "mediaUrl": "blob:https://www.linkedin.com/f517f4c6-5438-4bc2-ab1c-2ce3fcf2e81c",
+      "comments": [],
+      "comments1": []
+    },
+    {
+      "postId": "urn:li:activity:7283153471866814464",
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [],
+      "comments1": []
+    },
+    {
+      "postId": "urn:li:activity:7283439054564577280",
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [],
+      "comments1": []
+    },
+    {
+      "postId": "urn:li:activity:7282469143180685312",
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [],
+      "comments1": []
+    },
+    {
+      "postId": "urn:li:activity:7283768282405347331",
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [],
+      "comments1": []
+    },
+    {
+      "postId": "urn:li:activity:7282401059501752320",
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [],
+      "comments1": []
+    }
+  ],
+  "errors": [
+    {
+      "postId": "urn:li:activity:7283430196085428224",
+      "url": "https://www.linkedin.com/company/corporatebhakt/posts",
+      "errors": [
+        "Failed to fetch media URL.",
+        "Failed to fetch comments."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7282169210997252096",
+      "url": "https://www.linkedin.com/company/samsungmobile/posts",
+      "errors": [
+        "Failed to fetch comments."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7284062086786105345",
+      "url": "https://www.linkedin.com/groups/121615?q=highlightedFeedForGroups&highlightedUpdateUrn=urn%3Ali%3AgroupPost%3A121615-7283856793313644544",
+      "errors": [
+        "Failed to fetch comments."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7283153471866814464",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL.",
+        "Failed to fetch comments."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7283439054564577280",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL.",
+        "Failed to fetch comments."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7282469143180685312",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL.",
+        "Failed to fetch comments."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7283768282405347331",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL.",
+        "Failed to fetch comments."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7282401059501752320",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL.",
+        "Failed to fetch comments."
+      ]
+    }
+  ]
+}

@@ -7,8 +7,8 @@ require('./ipcHandlers');
 
 const createWindow = () => {
   const mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 245,
+    height: 245,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       contextIsolation: true,
@@ -24,7 +24,7 @@ const createWindow = () => {
     mainWindow.loadFile(path.join(__dirname, '../../public/index.html'));
   }
 
-  mainWindow.webContents.openDevTools();
+  // mainWindow.webContents.openDevTools();
 };
 
 app.whenReady().then(() => {
