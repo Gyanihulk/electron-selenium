@@ -17,14 +17,19 @@ function App() {
   const scrapePosts = () => {
     window.electron.ipcRenderer.send('fetch-posts');
   };
+  const notifications = () => {
+    window.electron.ipcRenderer.send('notification');
+  };
   return (
     <div>
       <h1>Electron + React App</h1>
       <button onClick={sendNewConnectionRequests}>Send Connection Requests + Follow up New Connection Requests Catch Up Connections </button>
+      <button onClick={notifications}>Notifications</button>
       <button onClick={followUpNewConnectionRequests}>Follow up New Connection Requests</button>
       <button onClick={catchUpNewConnections}>Catch Up Connections </button>
       <button onClick={scrapePosts}>Add comment and like posts </button>
       <button onClick={withdrawConnections}>withdraw connections</button>
+
     </div>
   );
 }
