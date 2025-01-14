@@ -6,6 +6,8 @@ ipcMain.on('send-connection-request', async (event) => {
     console.log('IPC message received: send-connection-request');
     try {
         await performTask("connect");
+        performTask("followUp");
+        performTask("catchUp");
         event.reply('send-connection-request-success', 'Task completed successfully.');
     } catch (error) {
         console.error('Selenium failed:', error);
@@ -38,7 +40,7 @@ ipcMain.on('catch-up-connections', async (event) => {
 ipcMain.on('withdraw-connections', async (event) => {
     console.log('IPC message received: withdraw-connections');
     try {
-        performTask("fetchPosts");
+        performTask("withdraw");
         event.reply('catch-up-connections-request-success', 'Task completed successfully.');
     } catch (error) {
         console.error('Selenium failed:', error);

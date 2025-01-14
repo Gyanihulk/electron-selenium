@@ -136,8 +136,17 @@ async function scrapePosts(driver) {
           // Add the current post's details to the postsData array
           console.log("generatedcomment", generatedcomment);
           //   console.log(await post.getAttribute('innerHTML'));
+          const cleanedComment = generatedcomment.generated_comment.replace(
+            /["']/g,
+            ""
+          ); // Removes single and double quotes
 
-          insertCommentAndSubmit(post, generatedcomment.generated_comment);
+          // Add the current post's details to the postsData array
+          console.log("Cleaned Comment:", cleanedComment);
+
+          // Insert the cleaned comment and submit
+          insertCommentAndSubmit(post, cleanedComment);
+          // insertCommentAndSubmit(post, generatedcomment.generated_comment);
         }
       } catch (error) {
         console.error(error);
@@ -263,6 +272,14 @@ async function fetchComments(post) {
  */
 async function insertCommentAndSubmit(post, generatedComment) {
   try {
+    // Scroll the post into view
+    await post
+      .getDriver()
+      .executeScript(
+        "arguments[0].scrollIntoView({ behavior: 'smooth', block: 'center' });",
+        post
+      );
+
     // Locate the comment box within the post
     const commentBox = await post.findElement(
       By.css(".comments-comment-box-comment__text-editor .ql-editor")
@@ -281,6 +298,28 @@ async function insertCommentAndSubmit(post, generatedComment) {
       );
 
     console.log("Comment inserted into the comment box.");
+
+    // Locate and click the like button for the current post
+    const likeButton = await post.findElement(
+      By.css("button.artdeco-button.social-actions-button.react-button__trigger")
+    );
+
+    const actions = post.getDriver().actions();
+
+    // Ensure the like button is visible and enabled
+    await post
+      .getDriver()
+      .wait(until.elementIsVisible(likeButton), 5000);
+    await post
+      .getDriver()
+      .wait(until.elementIsEnabled(likeButton), 5000);
+
+    // Move to the button and click it
+    // await actions.move({ origin: likeButton }).click().perform();
+    await likeButton.click();
+    console.log("Like button clicked.");
+
+    // Locate and submit the comment button
     const commentButton = await post
       .getDriver()
       .wait(
@@ -290,33 +329,15 @@ async function insertCommentAndSubmit(post, generatedComment) {
         5000
       );
 
-    // Ensure the button is clickable
     await post.getDriver().wait(until.elementIsVisible(commentButton), 5000);
     await post.getDriver().wait(until.elementIsEnabled(commentButton), 5000);
 
-    // Scroll to the button
-    await post
-      .getDriver()
-      .executeScript("arguments[0].scrollIntoView(true);", commentButton);
-
-    // Log the button's HTML for debugging
-    const buttonHTML = await commentButton.getAttribute("outerHTML");
-    console.log("Comment Button HTML:", buttonHTML);
-
-    // Click the "Comment" button
-    await randomDelay()
-    
-    // Use Actions to perform the click
-    const actions = post.getDriver().actions();
     await actions.move({ origin: commentButton }).click().perform();
-
     console.log("Comment submitted successfully.");
   } catch (error) {
     console.error("Error inserting and submitting comment:", error.message);
-    // Optionally log the post HTML for debugging
-    // const postHTML = await post.getAttribute("outerHTML");
-    // console.log("Post HTML:", postHTML);
   }
 }
+
 
 module.exports = { scrapePosts };

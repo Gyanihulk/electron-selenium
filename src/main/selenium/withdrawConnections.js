@@ -5,7 +5,7 @@ const { randomDelay } = require("../../lib/randomDelay");
 async function withdrawConnections(driver) {
   console.log("Navigating to withdrawing page...");
   await driver.get(
-    "https://www.linkedin.com/mynetwork/invitation-manager/sent/?page=4"
+    "https://www.linkedin.com/mynetwork/invitation-manager/sent/?page=3"
   );
 await driver.sleep(15000);
   // Wait until the invitation cards are loaded
