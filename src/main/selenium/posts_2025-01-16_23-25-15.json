@@ -1,0 +1,9 @@
+{
+  "posts": [],
+  "errors": [
+    {
+      "message": "General error while scraping posts.",
+      "details": "This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "posts": [
+    {
+      "postId": "urn:li:activity:7282904409494175744",
+      "linkedInUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7282904409494175744",
+      "url": "https://www.linkedin.com/in/daniel-goodman2001?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAeS6L0BdHsGXRto-nWwwPVPt8hNYJ4niZI",
+      "name": "Dan Goodman\nDan Goodman",
+      "content": "It is time to change the employee landscape. \n\nIt has been too one-sided for too long. Pretty much every aspect of the employee/employer relationship.\n\nEmployers have all the leverage, yet without employees, employers have no company. Individually we have very little power, collectively we have a lot. I’m not talking unions. I’m talking about companywide revolts.\n\nHow about if a leader invokes a predatory windfall clause on a salesperson or changes the compensation plan retroactively, then every salesperson on the team stops selling in protest or they collectively take their concerns to the CEO.\n\nIf not, who is to say that you’re not next. The employer has little choice but to do the right thing, at least in the short term.\n\nAll for one, one for all.",
+      "reactions": {
+        "likes": "63",
+        "comments": "43 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [],
+      "commentAdded": "Absolutely agree! Collective action can empower employees to reshape the workplace. Its time for mutual respect in the employer-employee dynamic!"
+    },
+    {
+      "postId": "urn:li:activity:7286479980190908417",
+      "linkedInUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7286479980190908417",
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    },
+    {
+      "postId": "urn:li:activity:7286175711415971841",
+      "linkedInUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7286175711415971841",
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    }
+  ],
+  "errors": [
+    {
+      "postId": "urn:li:activity:7282904409494175744",
+      "url": "https://www.linkedin.com/in/daniel-goodman2001?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAeS6L0BdHsGXRto-nWwwPVPt8hNYJ4niZI",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7286479980190908417",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7286175711415971841",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL."
+      ]
+    }
+  ]
+}

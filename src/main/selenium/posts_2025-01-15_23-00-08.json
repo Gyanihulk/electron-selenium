@@ -1,0 +1,297 @@
+{
+  "posts": [
+    {
+      "postId": "urn:li:activity:7284891018468954112",
+      "url": "https://www.linkedin.com/in/mitesh-parmar-313714157?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACWosb8BnLVVsBHmTI4AlYwxk1EeI_fDKb0",
+      "name": "Mitesh Parmar\nMitesh Parmar",
+      "content": "  Exciting News from Instamart !  \n\nWe are proud to announce the launch of another Swiggy InstamartPOD in Ahmedabad, our second launch this January! With this addition, our network in the city becomes even stronger, ensuring faster and more efficient service for our customers.\n\nJanuary is shaping up to be an incredible month, and we have plenty more launches coming your way. Stay tuned for updates as we continue to grow and bring convenience closer to you!\n\nLaunch of the Jan 25 till now\n1) Odhav - 02/01/2025\n2) Sola Road - 08/01/2025\n\nA huge thank you to our amazing team for making this happen. Here's to more milestones ahead!",
+      "reactions": {
+        "likes": "163",
+        "comments": "4 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "Great news",
+          "userName": "Vishnu Nalge",
+          "userProfileURL": "https://www.linkedin.com/in/vishnu-nalge-241004185",
+          "dataId": "urn:li:comment:(ugcPost:7283734588571471872,7285344587433316352)"
+        },
+        {
+          "commentText": "Congratulations! Sir",
+          "userName": "Ankit Bajpayee",
+          "userProfileURL": "https://www.linkedin.com/in/ankit-bajpayee-02b351209",
+          "dataId": "urn:li:comment:(ugcPost:7283734588571471872,7284638836779896832)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7285009893630066688",
+      "url": "https://www.linkedin.com/in/kevin-miller-strategy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABW-mQ4Brig3vArJuFts8x8yPE7K4JOLdWw",
+      "name": "Kevin Miller\nKevin Miller",
+      "content": "Not all \"up and to the right\" moments are worth a champagne toast. Growth, for growth's sake, can actually be quite deceiving and destructive. \n\n\nWith a solid product or service and a sales team firing on all cylinders, chasing top-line growth can be exhilarating! It’s fun to watch those numbers climb. But if we’re not careful, we risk leaving our customers in the dust while we celebrate with high-fives and bonuses in a cloud of confetti.\n\nOn the flip side, we can get so laser-focused on delighting our current customers that our sales pipeline begins to dry up. And suddenly, those \"job well done\" pats on the back turn into \"slaps back into reality.\"\n\nSo...how do you keep your company from veering too far in either direction? That’s the real high-wire balancing act, and no one wants to be up there without a net. It requires intentional leadership and internal advocates for the Big 3 - pipeline, profit, and people.\n\nCreating an environment for healthy conflict and objective debate typically keeps things in check.",
+      "reactions": {
+        "likes": "3",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    },
+    {
+      "postId": "urn:li:activity:7285335701003423744",
+      "url": "https://www.linkedin.com/in/hamiltondenise?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAD3EB4BbNxFRGo7BBZYoYidrUqyVumTunc",
+      "name": "Denise Hamilton\nDenise Hamilton",
+      "content": "Let’s play a quick gratitude game: What’s one thing you’re grateful for today? \n\nI’ll start—I’m grateful for the chance to connect with amazing people who inspire me every day (yes, that includes YOU!). What’s on your gratitude list?",
+      "reactions": {
+        "likes": "3",
+        "comments": "2 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "I am grateful for my partner.\nI am grateful for my friends - many of whom I lost regular contact with over the last few years and I am making intentional effort to reconnect now.\nI am grateful for new friends I met in the last year - and the friends I will be meeting this year.\nI am grateful I love learning, trying, failing and trying again.\nI am grateful that often, I am able to help and support people who ask.\nI am grateful for my health.\nI am grateful for my border collie who keeps me active and gives great hugs.",
+          "userName": "Bruce Mayhew",
+          "userProfileURL": "https://www.linkedin.com/in/brucemayhewconsulting",
+          "dataId": "urn:li:comment:(activity:7285335701003423744,7285346572412887042)"
+        },
+        {
+          "commentText": "Today my gratitude is for the great conversation I had with Dr. Samra Zafar, M.D. in our LinkedIn LIVE on Psychological Safety and Fatigue. Let's keep doing the work!",
+          "userName": "Bill G. Williams",
+          "userProfileURL": "https://www.linkedin.com/in/bill-g-williams",
+          "dataId": "urn:li:comment:(activity:7285335701003423744,7285346029330120705)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7285278560645218304",
+      "url": "https://www.linkedin.com/in/clarashih?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAANsckBlg1Xus_p33jdSIuUrgzXgMmE22s",
+      "name": "Clara Shih\nClara Shih",
+      "content": "There's been a lot of SaaS-bashing lately. Klarna cancelling its Salesforce and Workday contracts. Gavin Baker on All-In Podcast saying that enterprise apps will be \"worst-performing asset of 2025.\"railing against \"the software industrial complex... enterprise software companies that have convinced organizations to spend a tremendous amount of money wrapping business rules around a CRUD database.\"predicts \"business apps will all collapse in the agent era [since SaaS apps] are just CRUD databases with business logic, logic is going to agents, and agents will be multi-repo CRUD.\"oflikening SaaS companies to pre-Internet ad agencies and predicting their slow demise.\n\nBut is SaaS really dead? Despite long LLM context windows, structured data still matters for accuracy, access control, and latency. Deterministic workflows are needed for repeatability and control. I actually think SaaS systems of record and workflows may be more important than ever, needed for agent RAG and tools. Also, many people these days are pooh-poohing seat licensing, but seats are working quite well for– 85% of its estimated $4B ARR (250% y/y) is from paid ChatGPT seats.\n\nOf course, not all SaaS companies are created equal. Those with source-of-truth data and high product utilization and renewal rates will fare best. Overall, AI will exert both upward and downward pressure on software business models:\n‣ Ashas articulated, AI may deliver a lot of value, but it may not be possible to monetize because value is the upper bound on price whereas the cost of alternatives is the lower bound.\n‣ Price per seat for software could increase with addition of AI features, unless everyone else also offers those same features (eg, draft a prospecting email) in which case it becomes table stakes.\n‣ Seat price on previously premium features could be pressured if those features are easily replicated with an AI prompt (eg, summarize call).\n‣ # seats sold depend on factors like current utilization and TAM penetration. If utilization is low, renewals may be flat or down even after swapping in licenses for new AI features. In the current environment, CIOs are less willing to buy or renew unused seats or functionality compared to previous cycles.\n‣ Margins may be pressured due to model inference costs.\n‣ Replacing your CRUD database and workflow platform has high switching costs; LLMs could bring down the switching cost.\n\nWill the Rule of 40 and high-teens or greater double-digit revenue growth that has driven SaaS valuations over the last decade be sustainable in the agent era? Or will some need to face the grim reality described byas \"the no man's land of low growth coupled with low FCF margins\", where it will be a challenge to sustain investor interest? Personally, I'm rooting for SaaS and either way, 2025 is shaping up to be a watershed moment for the industry.",
+      "reactions": {
+        "likes": "1,195",
+        "comments": "71 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "Hi Clara LTNS. Just like every other prediction like this for the past 41 years I have been in the industry, people massively overestimate how quickly things will change (especially technology leaders and CEOs in SIlicon Valley), and the reason for that is it always takes longer for adoption than people think. Silicon Valley feeds on it’s own exhaust fumes and creates what it believes is a credible speed of outcome, and then Fear and FoMo are used with adopters of tech to try to accelerate adoption. The reality is that the same mainframe systems that have run transaction processing in large sustaining enterprises are still doing that every day.\n\nIt is likely that AI will eat away at knowledge work in the short term. Changing out for example ERP systems is like Open Heart surgery, and from where I sit there are nowhere near enough surgeons.\n\nSo I would say watch adoption of CoPilot /365, Gemini, Competing products, AI Programming and others this year.\n\nProductivity improvements is the way CFO’s will underwrite AI business cases, and without proper measurement, it will be “belief” and first adopter risk takers that lead the field and many others will remain skeptical, until proven otherwise.",
+          "userName": "Andy Brown",
+          "userProfileURL": "https://www.linkedin.com/in/andybrown63",
+          "dataId": "urn:li:comment:(activity:7285195327010172928,7285281961470820353)"
+        },
+        {
+          "commentText": "John Brennan yes trees grow, trees die and eventually you get Oil!! I always think of Sally Lunns Buns in Bath, UK where you can see all the road levels from Roman up through a Perspex overlay of the wall. Got to be 20 foot up. Man Made!!!",
+          "userName": "Andy Brown",
+          "userProfileURL": "https://www.linkedin.com/in/andybrown63",
+          "dataId": "urn:li:comment:(activity:7285195327010172928,7285344632035500035)"
+        },
+        {
+          "commentText": "Enterprise firms will experience AI workflows through their existing strategic SaaS partners e.g., Microsoft, SAP, ServiceNow, etc. It's the 0-1 and N+1 firms that are more likely to experiment with alternative solutions to SaaS based on investment cost, interoperability, modularity & adaptability.",
+          "userName": "Sarah Cornell",
+          "userProfileURL": "https://www.linkedin.com/in/sarahcornell",
+          "dataId": "urn:li:comment:(activity:7285195327010172928,7285339255239770114)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7285337468701130752",
+      "url": "https://www.linkedin.com/in/mark-broadhurst-2803aa29?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAXuYwAB4sSywgEDaFrOGeVsZPIqJKhxfTg",
+      "name": "Mark Broadhurst\nMark Broadhurst",
+      "content": "DXC Technology Global Town Hall - Delivering Future Success\n\nOur President and CEOreaffirmed the importance and value of listening and collaborating with customers, partners and colleagues to enable us to innovate the solutions we provide.\n\nwas joined by, VP of Employee Technology at CIBC to discuss how our long-standing relationship has evolved over the years and provided great insight into what we have accomplished together.\n\nhosted a great session with our Global Leadership Team where they outlined the key strategies and learnings from working with customers, and how we can work together to drive growth.\n\nhighlighted the importance of focusing on our customers to reduce complexity, andemphasised the power of local teams working in collaboration with the global business.\n\nfocused on operational discipline and having the right people, with the right skills.emphasised the importance of a winning mindset through customer centricity and engagement.\n\ndiscussed how we should continue to lead with new ideas and a modernisation agenda that can help customers embrace the future successfully, andshared how remaining curious through creative thinking will bring the best outcomes for our customers.\n\nprovided invaluable insights on how he has led the insurance business to success through a 4-step process: leadership & culture, getting closer to customers, listening, and collaborating - all of which have guided our promise of meeting our customers where they are.\n\nA fantastic and uplifting way to engage with the whole of theglobal community, and reinforce our commitment to build a better future by working together as a community with customers, colleagues and partners.",
+      "reactions": {
+        "likes": "139",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    },
+    {
+      "postId": "urn:li:activity:7285278026584518659",
+      "url": "https://www.linkedin.com/in/mudrikakavdia?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADTE85gB-iZQ7vK85Vmo3H_bYNjjifzwUDI",
+      "name": "Mudrika Kavdia\nMudrika Kavdia",
+      "content": "HR: Tell us how we can improve employee happiness.\n\nMe: 'Salary.'\n\nHR: Apart from salary.\n\nMe: Okay, double salary.\n\nHR: Crashes the meeting. ",
+      "reactions": {
+        "likes": "83",
+        "comments": "22 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "Your humor shines a light on a crucial aspect of employee happiness. It’s a reminder that while compensation is important, the conversation should delve deeper into creating a fulfilling work environment. Your insight on this topic makes such discussions more engaging and impactful.",
+          "userName": "Priyank Ahuja",
+          "userProfileURL": "https://www.linkedin.com/in/priyank-ahuja",
+          "dataId": "urn:li:comment:(activity:7285259248098304000,7285277993629835266)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7285325013476372483",
+      "url": "https://www.linkedin.com/in/lalit-arora-meloneer?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAxS6bIBjdAmuro75Sag7scRyBRKZaAAwfE",
+      "name": "Lalit A.\nLalit A.",
+      "content": "4 Years Strong with Salesforce! https://lnkd.in/gdNDfYjs\n\nMelonleaf Consulting is thrilled to celebrate 4 amazing years of partnership with Salesforce!\n\nThis journey has been marked by incredible growth on the AppExchange as a trusted consulting partner and the unwavering support from Salesforce that has fueled our success.\n\nThank you, Salesforce, for empowering us to innovate and deliver impactful solutions. Here's to many more years of collaboration!\n\n Melonleaf+Salesforce ->",
+      "reactions": {
+        "likes": "7\nMohit Kumar and 6 others",
+        "comments": "1 comment",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "Many congratulations Lalit A. to you and your whole team.",
+          "userName": "Avishek Roy",
+          "userProfileURL": "https://www.linkedin.com/in/avishekroy-salesforce",
+          "dataId": "urn:li:comment:(activity:7285320738193002497,7285334398944559106)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7280479106582958082",
+      "url": "https://www.linkedin.com/in/siddhi-bhardwaj-529b661a5?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAMJXEBOUOwYAEfJSvgXuyC5bByWWUSRkU",
+      "name": "Siddhi Bhardwaj\nSiddhi Bhardwaj",
+      "content": "I’m happy to share that I’m starting a new position as Experience Manager at Xley!",
+      "reactions": {
+        "likes": "45\nTanmay Sinha and 44 others",
+        "comments": "12 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "Congrats Siddhi! ",
+          "userName": "̊C̊̊H̊̊I̊̊N̊̊M̊̊O̊̊Y̊ ̊N̊̊E̊̊O̊̊G̊",
+          "userProfileURL": "https://www.linkedin.com/in/%CC%8Ac%CC%8A%CC%8Ah%CC%8A%CC%8Ai%CC%8A%CC%8An%CC%8A%CC%8Am%CC%8A%CC%8Ao%CC%8A%CC%8A%E1%BA%99-%CC%8A-62635a1b7",
+          "dataId": "urn:li:comment:(ugcPost:7280479105949544448,7284765153508634624)"
+        },
+        {
+          "commentText": "Congrats Siddhi! ",
+          "userName": "Pratik Sharad Shah",
+          "userProfileURL": "https://www.linkedin.com/in/pratik-sharad-shah-9b252470",
+          "dataId": "urn:li:comment:(ugcPost:7280479105949544448,7285187518579273729)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7285310066671464448",
+      "url": "https://www.linkedin.com/in/nona-prather-b5663010a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABuAYXIBi7sSvrYjNrRn52Kia7vOCxjVrRM",
+      "name": "Nona Prather\nNona Prather",
+      "content": "Don't hesitate to reach out for assistance—collaboration leads to success.\nJoyce Marter, LCPC\nhashtag",
+      "reactions": {
+        "likes": "4",
+        "comments": "2 comments",
+        "shares": "0"
+      },
+      "mediaUrl": "blob:https://www.linkedin.com/a517bb29-a6aa-4b36-9afe-4a5cf0dc4fb8",
+      "comments": [
+        {
+          "commentText": "Thanks Nona Prather for helping share my message with more people! It’s my purpose and passion to remove the shame and stigma from mental health challenges and financial stress, and to provide people with practical tools to heal, recover, thrive and prosper!",
+          "userName": "Joyce Marter, LCPC",
+          "userProfileURL": "https://www.linkedin.com/in/joycemarter",
+          "dataId": "urn:li:comment:(ugcPost:7285309907921256449,7285315286201704448)"
+        },
+        {
+          "commentText": "",
+          "userName": "Jesse Cruz",
+          "userProfileURL": "https://www.linkedin.com/in/jesse-cruz-133714164",
+          "dataId": "urn:li:comment:(ugcPost:7285309907921256449,7285323946952998914)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7285331337547259905",
+      "url": "https://www.linkedin.com/in/tony-chi-su-gutierrez-40228970?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA79nwIBpv1UjFpAL4nqBhKX2-Y4lDN_d9c",
+      "name": "Tony Chi-Su Gutierrez\nTony Chi-Su Gutierrez",
+      "content": "I invite you if you're available. Register here. If you want to network in the San Gabriel Valley Community \n\n如果您有空的話我本週就邀請您。 在此註冊。\n\nTe invito esta semana si estás disponible. Regístrate aquí.",
+      "reactions": {
+        "likes": "1",
+        "comments": "2 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "https://form.jotform.com/250076843469970",
+          "userName": "Tony Chi-Su Gutierrez",
+          "userProfileURL": "https://www.linkedin.com/in/tony-chi-su-gutierrez-40228970",
+          "dataId": "urn:li:comment:(ugcPost:7285331336737832961,7285331779337568257)"
+        },
+        {
+          "commentText": "Tony Chi-Su Gutierrez, thank you for the invitation and opportunity to network",
+          "userName": "James D. Feldman, CSP, CITE, CPIM",
+          "userProfileURL": "https://www.linkedin.com/in/jamesdfeldman",
+          "dataId": "urn:li:comment:(ugcPost:7285331336737832961,7285332796519198720)"
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "postId": "urn:li:activity:7284891018468954112",
+      "url": "https://www.linkedin.com/in/mitesh-parmar-313714157?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACWosb8BnLVVsBHmTI4AlYwxk1EeI_fDKb0",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7285009893630066688",
+      "url": "https://www.linkedin.com/in/kevin-miller-strategy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABW-mQ4Brig3vArJuFts8x8yPE7K4JOLdWw",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7285335701003423744",
+      "url": "https://www.linkedin.com/in/hamiltondenise?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAD3EB4BbNxFRGo7BBZYoYidrUqyVumTunc",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7285278560645218304",
+      "url": "https://www.linkedin.com/in/clarashih?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAANsckBlg1Xus_p33jdSIuUrgzXgMmE22s",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7285337468701130752",
+      "url": "https://www.linkedin.com/in/mark-broadhurst-2803aa29?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAXuYwAB4sSywgEDaFrOGeVsZPIqJKhxfTg",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7285278026584518659",
+      "url": "https://www.linkedin.com/in/mudrikakavdia?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADTE85gB-iZQ7vK85Vmo3H_bYNjjifzwUDI",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7285325013476372483",
+      "url": "https://www.linkedin.com/in/lalit-arora-meloneer?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAxS6bIBjdAmuro75Sag7scRyBRKZaAAwfE",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7280479106582958082",
+      "url": "https://www.linkedin.com/in/siddhi-bhardwaj-529b661a5?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAMJXEBOUOwYAEfJSvgXuyC5bByWWUSRkU",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7285331337547259905",
+      "url": "https://www.linkedin.com/in/tony-chi-su-gutierrez-40228970?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA79nwIBpv1UjFpAL4nqBhKX2-Y4lDN_d9c",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    }
+  ]
+}

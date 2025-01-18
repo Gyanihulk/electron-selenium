@@ -1,0 +1,285 @@
+{
+  "posts": [
+    {
+      "postId": "urn:li:activity:7286074322983571456",
+      "url": "https://www.linkedin.com/in/richkingrecruiter?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAM_kegBOwf-CNSjl-e9pZc_VECLU27iUzM",
+      "name": "Richard King\nRichard King",
+      "content": "With the imminent TikTok ban coming to America...they may be a huge influx of video-content to LinkedIn  (thank you Matthew Wohl for the reminder).\n\nHere's the info on how to run OFF auto-play \nDesktop and Mobile instructions:",
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    },
+    {
+      "postId": "urn:li:activity:7286074284098166784",
+      "url": "https://www.linkedin.com/in/brandon-brown-0898731?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABOO6kB4_CRErLm1L8J1RUoNCB6qB5BuUQ",
+      "name": "Brandon Brown\nBrandon Brown",
+      "content": "Every big win starts with a risk.\n\nLaunching a business, scaling a team, diving into new markets—it all requires stepping into the unknown.\n\nRisk feels scary, but it’s where the rewards live.\n\nThe next time fear of risk shows up, ask yourself: What’s on the other side?\n\nIt might just be everything you’ve been working for.",
+      "reactions": {
+        "likes": "25",
+        "comments": "2 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "Everything is a risk.\n\nYou risk staying somewhere for life or risk taking a chance on yourself.\n\nBest thing is to choose your risk.",
+          "userName": "Ryan Porter",
+          "userProfileURL": "https://www.linkedin.com/in/ryan-porter-96b734131",
+          "dataId": "urn:li:comment:(activity:7286045861678137345,7286048285704740864)"
+        },
+        {
+          "commentText": "Fear of risk is just fear of failure. Time to get over it!",
+          "userName": "Jim Valentine",
+          "userProfileURL": "https://www.linkedin.com/in/jim-valentine-3001a716",
+          "dataId": "urn:li:comment:(activity:7286045861678137345,7286067970634571776)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7282758007573102592",
+      "url": "https://www.linkedin.com/in/alex-turnbull-1ab9992?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACAYtMB_ahNSSaY_yym6KikVRWc-UeBn6s",
+      "name": "Alex Turnbull\nAlex Turnbull",
+      "content": "The next wave of SaaS companies won't have customer support teams.\n\nThe future of SaaS support isn't more humans.\n\nIt's AI agents hitting 80%+ resolution rates at 3AM.\n\nFrom instant refunds to perfect product answers to automated onboarding.\n\nAn AI agent that answers better than the current best human rep–resolving 75% of tickets instantly while traditional teams wait until morning.\n\nThis isn't speculation.\n\nSome companies have already replaced $2M support teams with $2K/month AI agents (but they won't share these numbers publicly).\n\nImagine your AI agent manages 1000+ customer inquiries simultaneously.\n\nYour knowledge agent analyzes 1000+ support tickets per hour, finding gaps and opportunities that no human team could spot.\n\nYour support agent creates dozens of perfect responses daily across email, chat, and help desk, learning from each interaction, optimizing for what works.\n\nYour onboarding agent welcomes every new customer personally, handles setup in seconds, and turns questions into solutions (and into customer retention).\n\nYour training agent generates new knowledge daily, while your testing agent runs hundreds of response variations, automatically killing what doesn't work.\n\nYour brand agent writes and tests different message styles, personalizing every interaction based on customer history.\n\nYour optimization agent spots trends before humans could, adjusting responses in real-time.\n\nThe support stack becomes fully automated, working 24/7.\n\nAnd these agents are free, forever.\n\nYou just pay per resolution.\n\nWhat previously required dozens in support staff and $2M in salary now happens automatically with $2k in resolution costs per month.\n\nOne support agent becomes as powerful as an entire team.\n\nCustomer satisfaction becomes predictable.\n\nSupport becomes systematic.\n\nWinners will be whoever has the organized their training data correctly (also done by support agents + 1 team member approving the agents work) and whoever has the courage to automate first and whoever can optimize consistently.\n\nFun to think about because you can see it already starting to happen with companies hitting 70% resolution rates and it’s still seriously early days.\n\nI don’t have a crystal ball into this future; I see it in real-time because we’re building and implementing it for dozens of startups.\n\nWant to see this in action? Check out how we're putting support on autopilot at Helply.",
+      "reactions": {
+        "likes": "68",
+        "comments": "54 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "As long as a human is still on the other end keeping an eye on edge cases - I recently had a hilariously frustrating experience with a bot that supposedly refunded a mistake order but instead charged me twice. The issue was fixed by a human. But the time between dealing with the idiot bot and the human eroded my trust with the brand. They don’t give a shit about solving problems and instead care about saving costs with automation. I think it opens up room for 100% human led support systems in some high touch industries or at least use cases within a problem set.",
+          "userName": "Craig Zingerline",
+          "userProfileURL": "https://www.linkedin.com/in/craigzingerline",
+          "dataId": "urn:li:comment:(activity:7282758007573102592,7282850004031926272)"
+        },
+        {
+          "commentText": "Craig Zingerline Fair point here :) ",
+          "userName": "Alex Turnbull",
+          "userProfileURL": "https://www.linkedin.com/in/alex-turnbull-1ab9992",
+          "dataId": "urn:li:comment:(activity:7282758007573102592,7283304868180557825)"
+        },
+        {
+          "commentText": "Drawing from my experience leading tech teams and witnessing multiple transformations, I have a slightly nuanced perspective on this AI support evolution.\n\nWhile I agree with the trajectory, I'd suggest a hybrid approach in these early stages. In my experience leading large teams through tech transitions, the key isn't replacing humans – it's augmenting them strategically. Having managed multiple RIFs and automation initiatives, I've seen how AI can amplify human capabilities rather than completely replace them.\n\nThe real opportunity lies in redefining the role of support teams. Those $2M teams might transform into smaller, highly specialized groups that train, supervise, and optimize AI systems, while handling the nuanced cases that require human judgment.\n\nWhat metrics beyond resolution rates are you seeing as critical indicators for successful AI support implementation?",
+          "userName": "Seth Price",
+          "userProfileURL": "https://www.linkedin.com/in/sethkprice",
+          "dataId": "urn:li:comment:(activity:7282758007573102592,7282809773534674945)"
+        },
+        {
+          "commentText": "Seth Price Love this - super insightful and I think spot on. \n\nCSAT scores and resolution rates. ",
+          "userName": "Alex Turnbull",
+          "userProfileURL": "https://www.linkedin.com/in/alex-turnbull-1ab9992",
+          "dataId": "urn:li:comment:(activity:7282758007573102592,7282916796133769216)"
+        },
+        {
+          "commentText": "Alex Turnbull CSAT & resolution makes sense. Do you also measure intent recognition accuracy and deflection rate as secondary metrics?",
+          "userName": "Seth Price",
+          "userProfileURL": "https://www.linkedin.com/in/sethkprice",
+          "dataId": "urn:li:comment:(activity:7282758007573102592,7282920025869484032)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7286009620521734145",
+      "url": "https://www.linkedin.com/in/daniel-goodman2001?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAeS6L0BdHsGXRto-nWwwPVPt8hNYJ4niZI",
+      "name": "Dan Goodman\nDan Goodman",
+      "content": "Hispanic 34-year-old AE, wrongly terminated after months of targeted discriminatory abuse by new leadership. Increases severance from 4 weeks to 5 months. This after achieving 240% of quota the prior year and earning President’s Club trip.\n\nI consulted with a top performing AE named Carlos. He was one of only two non-white salespeople out of 17 in the company.\n\nCarlos was terminated based on easily refutable false claims of performance, having beaten quota for 7 of the 8 quarters he worked at his employer. Including the most recent quarter. Carlos was never given a PIP or received any complaints of performance as it was stellar.\n\nHow could things have gone so wrong, so fast. As is often the case, a new leader came in who clearly did not like people who did not look like him.\n\nA new leader came in after Carlos’ first year, creating a hostile work environment, leading by fear and intimidation. Regularly disrespecting individual contributors and punishing anyone who questioned things. There was never any praise or acknowledgement for things done well, only nitpicking and criticism.\n\nCarlos was especially picked on, having several deals he worked on for months and expected to close soon were given to his colleagues who looked like leadership with no explanation.\n\nCarlos had closed the largest deal in Q2 yet was not recognized by leadership during an all-hands meeting, where other colleagues were praised for deals with less revenue than Carlos.\n\nThe new leader reassigned territories, giving Carlos mostly dead accounts with little opportunity. When questioning it he was told to deal with it and was labeled a complainer.\n\nWas spoken to and harsh and abrasive tones, noticeably different by many than how his colleagues were treated.\n\nThe micromanaging became out of control. Carlos had to copy his manager on all emails and provide a detailed weekly report of the prior week’s activities.\n\nHe was being treated as if he were on a PIP without ever being on one or any specific goals to achieve as he was still performing well, closing deals and building pipeline.\n\nCarlos reached out and we had an awful lot of material to work with. He did a great job writing up a scathing, reputationally damaging and shameful document, with the promise of escalation and public exposure. We went through 3 rounds of negotiations, increasing his initial offer from $10k to $55k or by 450%.\n\nCarlos is extremely grateful for the support and positive outcome and is excited to put this horrible experience behind him. As a result, his family's holiday season was a lot less impacted.",
+      "reactions": {
+        "likes": "47",
+        "comments": "9 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "“Was spoken to and harsh and abrasive tones, noticeably different by many than how his colleagues were treated. \n\nThe micromanaging became out of control. Carlos had to copy his manager on all emails and provide a detailed weekly report of the prior week’s activities.\n\nHe was being treated as if he were on a PIP without ever being on one or any specific goals to achieve as he was still performing well, closing deals and building pipeline.”\n\nthis story is all too common. The more they are shared, the closer we are towards achieving better accountability. From an insurance perspective, these instances may also drive costs on Employment Practice Liability premiums and reputational harm. Instances like this affect everyone.\n\nThankfully for Carlos he had you in his corner. The mental toll this experience has on someone can lead to workplace trauma. I hope Carlos was also able to get mental wellness support before taking on their next role.",
+          "userName": "Desmond Marryshow, CIP, CRM",
+          "userProfileURL": "https://www.linkedin.com/in/desmond-marryshow",
+          "dataId": "urn:li:comment:(activity:7286009620521734145,7286029803294539776)"
+        },
+        {
+          "commentText": "Time for you to take a much needed weekend break Dan.",
+          "userName": "Nat Berman",
+          "userProfileURL": "https://www.linkedin.com/in/nathanielberman",
+          "dataId": "urn:li:comment:(activity:7286009620521734145,7286044570411282433)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7285294676033654785",
+      "url": "https://www.linkedin.com/in/jakedunlap?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAENCicB0qY59ybik0DUN4FzM8lk0Rq6bjk",
+      "name": "Jake Dunlap\nJake Dunlap",
+      "content": "\"Yeah Jake and Kevin \"KD\" Dorsey I get that AI can help with productivity but what about....(drum roll)...THE DATA\"\n\nI just can't\n\nMy friends...we already have the data\n\nWe already have insights\n\nThe promise of GenAI is certainly better insights but it is 1000% also the massive increase in revenue team productivity\n\nI'm seeing many teams putting their focus on \"we need more data\" when they should be focused on \"how can we take action on the data we have today\"\n\nSo in last week’s AI-Powered Seller episode (listen on your favorite podcast platform ️) - we kicked things off with a question every sales leader should be asking:\n\nWhat are the key components of an AI-powered sales infrastructure?\n\nYes. AI is transforming how we approach sales, but a lot of teams are getting stuck focusing on tools and data without knowing how to make them actionable\n\nThe focus shouldn't just be on choosing the right tech but actually building the habits, processes, and behaviors that turn AI into a productivity powerhouse for your team\n\nMiss that and the gap will only grow and your team will 100% take on the brunt of the impact\n\nWatch the first 15 minutes here, where we tackle this week’s DM question head-on. Then head over to YouTube for the full episode, where we share real-world applications to help you make AI work for your teams ️",
+      "reactions": {
+        "likes": "10",
+        "comments": "4 comments",
+        "shares": "0"
+      },
+      "mediaUrl": "blob:https://www.linkedin.com/93e98621-a191-4e7e-8bbf-9a670b2741db",
+      "comments": [
+        {
+          "commentText": "Data without action is just numbers on a page. As Peter Drucker famously said, \"What gets measured gets managed, but what gets managed gets done.\" The real power of AI isn't more data - it's helping teams act faster on the insights they already have to drive real results.",
+          "userName": "Mark Donnigan",
+          "userProfileURL": "https://www.linkedin.com/in/markdonnigan",
+          "dataId": "urn:li:comment:(ugcPost:7285060521861492737,7285978858011402240)"
+        },
+        {
+          "commentText": "It's refreshing to see such a clear focus on actionable insights from existing data. Your approach to integrating AI into sales is not just innovative but vital for driving productivity. ",
+          "userName": "Divya Atre",
+          "userProfileURL": "https://www.linkedin.com/in/divya-atre-b7155a245",
+          "dataId": "urn:li:comment:(ugcPost:7285060521861492737,7285638946561085441)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7286049195159912448",
+      "url": "https://www.linkedin.com/in/nick45?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABGx4TkB9dbW3P7PfIh9AM2b9xjHjXVHjAk",
+      "name": "Nick Cotter\nNick Cotter",
+      "content": "Want to know why most SaaS affiliate programs fall short?\n\nIt's not your commission rates.\n\nIt's not your product.\n\nIt's something simpler:\n\nYou're treating affiliates like numbers instead of people.\n\nAfter managing several SaaS affiliate programs, I see it everywhere:\n\nTeams obsess over dashboards.\nThey track metrics religiously.\nThey send automated emails.\n\nBut they miss what actually matters:\n\nReal relationships.\n\nYour affiliates aren't conversion machines.\nThey're partners in your growth.\n\nHere's what the top programs do differently:\n\n1 // Monthly personal check-ins with every active affiliate\n2 // Direct feedback on their content ideas\n3 // Custom support for their specific audience\n\nBecause here's the truth:\n\nAn engaged affiliate will outperform 10 inactive ones.\n\nRelationships compound.\nAutomation doesn't.\n\nFocus on connection first.\nMetrics second.\n\nWhen was the last time you personally reached out to your affiliates?",
+      "reactions": {
+        "likes": "9",
+        "comments": "2 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "Embrace dashboard to dashboard Saas partnerships! Some of your best affiliates can be other SaaS tools by simply adding a \"Partners\" section to your dashboard. Then, get some other Saas tools to do a reciprocal partnership.",
+          "userName": "Evan Weber",
+          "userProfileURL": "https://www.linkedin.com/in/worldsgreatestmarketer",
+          "dataId": "urn:li:comment:(activity:7286045857697693697,7286049184875511808)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7286061173538533377",
+      "url": "https://www.linkedin.com/in/alvertis-bishop-1a0b5663?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA2EsogBYPUHpyaDoNHXCJq-LPRoR97uSSY",
+      "name": "Alvertis Bishop\nAlvertis Bishop",
+      "content": "Life insurance is more than just a financial pay-out if you pass away. It’s a launching pad that helps set up the next generation – whether it’s helping to pay for a college degree or a future home. Contact me to learn more.",
+      "reactions": {
+        "likes": "1",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    },
+    {
+      "postId": "urn:li:activity:7285860030686318593",
+      "url": "https://www.linkedin.com/in/anthonywentzel?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADZN2sBr5ZUAlKZK2QwVQvOE9B6pnFHXt8",
+      "name": "Anthony Wentzel\nAnthony Wentzel",
+      "content": "Ready to make your app available to users on the App Store?\n\nHere's a guide for you to follow to make sure your app is up and running in no time.\n\n🟡 Step 1: App Store Categories and App Store Information\n\nProvide relevant App Store information.\n\n-The name and description of your app.\n-The primary category your app belongs to.\n-Supported languages, customer ratings, customer reviews, etc.\n\nChoose your App Store categories wisely!\n\n🟡 Step 2: Register your Developer Account\n\nYou'll need to have a registered account.\n\nIt will have the tools you need to prepare and submit your app.\n\n🟡 Step 3: Set up Development Tools\n\nSet up a development environment.\n\nInstall Xcode, the official Apple development tools, and other necessary software.\n\n🟡 Step 4: Write a Comprehensive Description:\n\nWrite an engaging and informative description.\n\nIt provides customers with an in-depth look at what your app does and why it should be downloaded.\n\n🟡 Step 5: Prepare Your App for Submission\n\nComplete the technical preparations for submission.\n\nAssemble your App Store screenshots, logo, videos, app assets, etc.\n\nThese give customers a visual impression of the app’s features, making them a crucial element.\n\nThen complete the App Store build, including any required code and configuration.\n\n🟡 Step 6: Receive App Store Approval\n\nThe review process for the App Store review team takes anywhere between 1–2 weeks.\n\nOnce the review team approves, you'll receive a notification, and your app will be eligible for download.\n\n🟡 Step 7: Submit Apple Metadata and Link App to App Store\n\nSubmit your Apple Metadata to the App Store.\n\nAudio and video files, PDFs, and images, along with the link to your app.\n\nThe App Store team will notify you that your app is ready to go live.\n\n🟡 Step 8: Monitor Feedback and Make Updates\n\nOnce your app has been released, customers may provide feedback through the App Store, email, or other channels.\n\nMonitor this feedback and make necessary updates to the app.\n\n🟡 Submitting your app to the App Store\n\nYou'll need an Apple Developer account and access to a Mac computer.\n\nFirst, create an iTunes Connect account to submit your app and manage its information.\n\nThen you can use Xcode to upload your app’s binary file to the App Store.\n\nYou’ll also need to provide some basic information about your app, such as its name, description, and category.\n\nAfter Apple approves, it will be available for download on the App Store.\n\nAs long as you are willing to put in some hard work and dedication, there is no doubt that you will find success when attempting to launch your own iOS application.\n\nGood luck!",
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    },
+    {
+      "postId": "urn:li:activity:7286073921945157632",
+      "url": "https://www.linkedin.com/in/oksanaosorio?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJdMCoB158_V2kseH-RLKB3ByMc98kp6TU",
+      "name": "Oksana Osorio\nOksana Osorio",
+      "content": " Permanent job opportunity: Project Manager (IM&T) \n\n\nWe have an exciting permanent opportunity for you to join our global client's team in Barrow, with the flexibility to work from home.\n\n The Role\nAs a Project Manager within their Information Management & Technology (IM&T) function, you’ll:\n\n Lead high-performing teams to deliver successful project outcomes.\n Build strong relationships with stakeholders, guiding and influencing decisions to align with objectives.\n Manage projects from start to finish, ensuring delivery on time, within scope, and budget.\n Drive continuous improvement and innovation in project delivery.\n\n What We’re Looking For:\n\n- Demonstrable expertise in Project Management IM&T skill sets.\n- A Project Management qualification (e.g., APM) or equivalent experience in an IT function.\n- Proven experience leading high-performing teams.\n- Strong stakeholder management skills to guide and influence effectively.\n\n Location: Barrow (with some flexibility for WFH)\n Type: Permanent, full-time\nSalary: up to £56,000 basic plus corporate benefits\n\nThis is a fantastic opportunity to work on exciting projects in a collaborative and supportive environment.\n\n Interested? Please contact me:",
+      "reactions": {
+        "likes": "5",
+        "comments": "1 comment",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": "Combining technical expertise with stakeholder management skills makes this role particularly compelling for experienced project management professionals. ",
+          "userName": "Cruz Gamboa",
+          "userProfileURL": "https://www.linkedin.com/in/cruzgamboa",
+          "dataId": "urn:li:comment:(activity:7286067390977593346,7286070624794349568)"
+        }
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7286055510267543552",
+      "url": "https://www.linkedin.com/in/nikkiwalkerpr?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADr7FgBlyIeWY7f7v7LUVYM4brGazgvIhY",
+      "name": "Nikki Walker\nNikki Walker",
+      "content": "This experience is very real. It takes so much out of you and leaves you with a huge wound that requires intense healing. This is the reality for many Black women including myself.\n\nIf you are an\nleader, I implore you to take note and take action against this harmful cycle.",
+      "reactions": {
+        "likes": "4",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    }
+  ],
+  "errors": [
+    {
+      "postId": "urn:li:activity:7286074322983571456",
+      "url": "https://www.linkedin.com/in/richkingrecruiter?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAM_kegBOwf-CNSjl-e9pZc_VECLU27iUzM",
+      "errors": [
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7286074284098166784",
+      "url": "https://www.linkedin.com/in/brandon-brown-0898731?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABOO6kB4_CRErLm1L8J1RUoNCB6qB5BuUQ",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7282758007573102592",
+      "url": "https://www.linkedin.com/in/alex-turnbull-1ab9992?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACAYtMB_ahNSSaY_yym6KikVRWc-UeBn6s",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7286009620521734145",
+      "url": "https://www.linkedin.com/in/daniel-goodman2001?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAeS6L0BdHsGXRto-nWwwPVPt8hNYJ4niZI",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7286049195159912448",
+      "url": "https://www.linkedin.com/in/nick45?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABGx4TkB9dbW3P7PfIh9AM2b9xjHjXVHjAk",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7286061173538533377",
+      "url": "https://www.linkedin.com/in/alvertis-bishop-1a0b5663?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA2EsogBYPUHpyaDoNHXCJq-LPRoR97uSSY",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7285860030686318593",
+      "url": "https://www.linkedin.com/in/anthonywentzel?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADZN2sBr5ZUAlKZK2QwVQvOE9B6pnFHXt8",
+      "errors": [
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7286073921945157632",
+      "url": "https://www.linkedin.com/in/oksanaosorio?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJdMCoB158_V2kseH-RLKB3ByMc98kp6TU",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7286055510267543552",
+      "url": "https://www.linkedin.com/in/nikkiwalkerpr?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAADr7FgBlyIeWY7f7v7LUVYM4brGazgvIhY",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    }
+  ]
+}

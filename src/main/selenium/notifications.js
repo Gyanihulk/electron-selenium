@@ -1,4 +1,4 @@
-const { By, until } = require("selenium-webdriver");
+const { By } = require("selenium-webdriver");
 
 async function notifications(driver) {
   console.log("Navigating to the notifications page...");
@@ -8,10 +8,10 @@ async function notifications(driver) {
   await driver.sleep(5000);
 
   const getTimeInSeconds = (timeString) => {
-    if (timeString.endsWith('s')) return parseInt(timeString) || 0;
-    if (timeString.endsWith('m')) return (parseInt(timeString) || 0) * 60;
-    if (timeString.endsWith('h')) return (parseInt(timeString) || 0) * 3600;
-    if (timeString.endsWith('d')) return (parseInt(timeString) || 0) * 86400;
+    if (timeString.endsWith("s")) return parseInt(timeString) || 0;
+    if (timeString.endsWith("m")) return (parseInt(timeString) || 0) * 60;
+    if (timeString.endsWith("h")) return (parseInt(timeString) || 0) * 3600;
+    if (timeString.endsWith("d")) return (parseInt(timeString) || 0) * 86400;
     return Number.MAX_SAFE_INTEGER;
   };
 
@@ -33,6 +33,11 @@ async function notifications(driver) {
         const timeElement = await card.findElement(By.css(".nt-card__time-ago"));
         const notificationTimeText = await timeElement.getAttribute("innerText");
 
+        // Find the notification link6
+     
+   // Find the notification link with the specific class name
+        const linkElement = await card.findElement(By.css("a.nt-card__headline"));
+        const notificationLink = await linkElement.getAttribute("href");
         // Convert time into seconds and check if it’s within the last 24 hours
         const notificationTimeInSeconds = getTimeInSeconds(notificationTimeText);
         if (notificationTimeInSeconds > 86400) {
@@ -44,6 +49,7 @@ async function notifications(driver) {
         notifications.push({
           text: notificationText,
           time: notificationTimeText,
+          link: notificationLink,
         });
       } catch (error) {
         console.log("Error processing notification:", error.message);
@@ -60,6 +66,16 @@ async function notifications(driver) {
 
   console.log("Fetched Notifications:");
   console.log(notifications);
+
+  // Open links in new tabs if the notification mentions or tags the user
+  for (const notification of notifications) {
+    if (/mentioned|tagged/i.test(notification.text)) {
+      console.log(`Mentioned Notifications: `,notification);
+      // await driver.executeScript("window.open(arguments[0], '_blank');", notification.link);
+      await driver.sleep(2000); // Allow the new tab to load
+    }
+  }
+
   return notifications;
 }
 

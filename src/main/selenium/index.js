@@ -15,54 +15,58 @@ const { notifications } = require("./notifications");
  * @param {string} task - The task to perform. Options: "connect", "followUp", "catchUp".
  */
 async function performTask(task) {
-    const driver = await initializeDriver();
+  const driver = await initializeDriver();
 
-    try {
-        // Common: Load cookies or perform login
-        if (fs.existsSync("cookies.json")) {
-            await loadCookies(driver);
-            await driver.get("https://www.linkedin.com/feed");
-        } else {
-            await performLogin(driver);
-        }
-
-        // Task-specific logic
-        switch (task) {
-            case "connect":
-                await navigateToMyNetwork(driver);
-                await connectWithFirst15People(driver);
-                break;
-
-            case "followUp":
-                await followUpNewlyConnectedConnections(driver);
-                break;
-
-            case "catchUp":
-                await navigateToMyCatchUp(driver);
-                await catchUpWithFirst15People(driver);
-                break;
-            case "fetchPosts":
-                await scrapePosts(driver)
-                // await withdrawConnections(driver);
-                break;
-            case "withdraw":
-               
-                await withdrawConnections(driver);
-                break;
-            case "notification":
-               
-                await notifications(driver);
-                break;
-            
-            default:
-                console.error("Invalid task parameter. Please provide one of: 'connect', 'followUp', 'catchUp'.");
-        }
-    } catch (error) {
-        console.error("Error during processing:", error);
-    } finally {
-        // Uncomment the line below when you're ready to quit the driver
-        // await driver.quit();
+  try {
+    // Common: Load cookies or perform login
+    if (fs.existsSync("cookies.json")) {
+      await loadCookies(driver);
+      await driver.get("https://www.linkedin.com/feed");
+    } else {
+      await performLogin(driver);
     }
+
+    // Task-specific logic
+    switch (task) {
+      case "connect":
+        await navigateToMyNetwork(driver);
+        await connectWithFirst15People(driver);
+        break;
+
+      case "followUp":
+        await followUpNewlyConnectedConnections(driver);
+        break;
+
+      case "catchUp":
+        await navigateToMyCatchUp(driver);
+        await catchUpWithFirst15People(driver);
+        break;
+
+      case "fetchPosts":
+        await scrapePosts(driver);
+        break;
+
+      case "withdraw":
+        await withdrawConnections(driver);
+        break;
+
+      case "notification":
+        for (let i = 0; i <= 10; i++) {
+          await notifications(driver);
+        }
+        break;
+
+      default:
+        console.error(
+          "Invalid task parameter. Please provide one of: 'connect', 'followUp', 'catchUp'."
+        );
+    }
+  } catch (error) {
+    console.error("Error during processing:", error);
+  } finally {
+    // Uncomment the line below when you're ready to quit the driver
+    // await driver.quit();
+  }
 }
 
 module.exports = { performTask };

@@ -55,7 +55,9 @@ async function scrapePosts(driver) {
 
       try {
         // Extract activity ID (post ID)
+        const postId=await post.getAttribute("data-id")
         postDetails.postId = await post.getAttribute("data-id");
+        postDetails.linkedInUrl = `https://www.linkedin.com/feed/update/${postId}`;
       } catch (error) {
         postErrors.push("Failed to fetch post ID.");
         postDetails.postId = null;
@@ -133,19 +135,18 @@ async function scrapePosts(driver) {
             postDetails.content,
             []
           );
-          // Add the current post's details to the postsData array
-          console.log("generatedcomment", generatedcomment);
+        
           //   console.log(await post.getAttribute('innerHTML'));
           const cleanedComment = generatedcomment.generated_comment.replace(
             /["']/g,
             ""
           ); // Removes single and double quotes
-
+          console.log("Cleaned Content:", postDetails.content);
           // Add the current post's details to the postsData array
           console.log("Cleaned Comment:", cleanedComment);
-
+          postDetails.commentAdded = cleanedComment;
           // Insert the cleaned comment and submit
-          insertCommentAndSubmit(post, cleanedComment);
+          await insertCommentAndSubmit(post, cleanedComment);
           // insertCommentAndSubmit(post, generatedcomment.generated_comment);
         }
       } catch (error) {
@@ -171,6 +172,7 @@ async function scrapePosts(driver) {
     try {
       fs.writeFileSync(outputFilePath, JSON.stringify(dataToSave, null, 2));
       console.log(`Posts and errors saved to ${outputFilePath}`);
+      await driver.quit();
     } catch (fileError) {
       console.error("Failed to save data to file:", fileError);
     }
@@ -318,7 +320,7 @@ async function insertCommentAndSubmit(post, generatedComment) {
     // await actions.move({ origin: likeButton }).click().perform();
     await likeButton.click();
     console.log("Like button clicked.");
-
+    await randomDelay();
     // Locate and submit the comment button
     const commentButton = await post
       .getDriver()
@@ -331,7 +333,7 @@ async function insertCommentAndSubmit(post, generatedComment) {
 
     await post.getDriver().wait(until.elementIsVisible(commentButton), 5000);
     await post.getDriver().wait(until.elementIsEnabled(commentButton), 5000);
-
+await randomDelay();
     await actions.move({ origin: commentButton }).click().perform();
     console.log("Comment submitted successfully.");
   } catch (error) {
