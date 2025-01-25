@@ -1,0 +1,103 @@
+{
+  "posts": [
+    {
+      "postId": "urn:li:activity:7288464341509525505",
+      "linkedInUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7288464341509525505",
+      "url": "https://www.linkedin.com/in/nereaarreguiqa?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEHgTbsBKHMzatlhgCsnqQX4ohcNYmxBmz8",
+      "name": "Nerea Arregui Exposito\nNerea Arregui Exposito",
+      "content": "Can AI revolutionize regression testing? Here’s how we’re doing it at Mchange \n\nWe recently revamped our website,a perfect opportunity to put our AI-powered QA workflow to the test.\n\nCould AI effectively enhance regression testing? The answer is a resounding yes!\n\nHere’s how we’re integrating AI into our workflow and tackling challenges along the way:\n\n️ Planning with the documentation assistant:\nOur assistant generates test requirements, plans, and cases from source code comparisons, setting a solid foundation for testing.\n️ Test case execution:\nAI provides step-by-step guidance to execute test cases and logs outcomes automatically, simplifying a traditionally manual process.\n️ Efficient debugging:\nWhen bugs arise, our assistant creates detailed reports with actionable debugging suggestions, speeding up resolution.\n️ A centralized QA hub:\nCentralize test cases, results, and bug reports, ensuring seamless collaboration and accessibility for all stakeholders.\n\nWhat’s the ROI?\n\n Time savings\n End-to-end automation\n Comprehensive coverage\n Scalability\n\nFacing challenges with AI integration\n\n Complex codebases? AI sometimes struggles with dependencies.\nOur solution: We divide code into manageable modules and use tools like Git for focused analysis.\n Limited context? AI might miss critical scenarios.\nOur solution: We enhance prompts with detailed requirements and functional insights.\n Integration testing? Ensuring robust coverage for old and new connections is complex.\nOur solution: We emphasize integration scenarios and build reusable test case libraries.\n\n Curious about the impact? Visit us atto see the results for yourself! Drop your feedback in the comments, we’d love to hear your thoughts.",
+      "reactions": {
+        "likes": "9",
+        "comments": "7 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [
+        {
+          "commentText": " Addressing real challenges like dependencies and integration testing is impressive.\n\nNerea Arregui Exposito",
+          "userName": "Ritu Parna",
+          "userProfileURL": "https://www.linkedin.com/in/ritu-parna-das",
+          "dataId": "urn:li:comment:(activity:7288464341509525505,7288524835322793984)"
+        },
+        {
+          "commentText": "Ritu Parna thank you! We recognize that addressing complex challenges like dependencies and integration testing is crucial for successful AI-powered regression testing. We're continuously working to improve our AI assistant's ability to handle these complexities and ensure comprehensive test coverage.",
+          "userName": "Nerea Arregui Exposito",
+          "userProfileURL": "https://www.linkedin.com/in/nereaarreguiqa",
+          "dataId": "urn:li:comment:(activity:7288464341509525505,7288546550748700672)"
+        },
+        {
+          "commentText": "Great to see AI enhancing regression testing at Mchange! The focus on scalability and automation is impressive. Nerea Arregui Exposito",
+          "userName": "Jeffrey Ross",
+          "userProfileURL": "https://www.linkedin.com/in/jeffreyross01",
+          "dataId": "urn:li:comment:(activity:7288464341509525505,7288495762303295490)"
+        },
+        {
+          "commentText": "Jeffrey Ross thank you! By automating repetitive tasks and scaling our testing efforts, we aim to improve efficiency and free up our QA team for more strategic work.",
+          "userName": "Nerea Arregui Exposito",
+          "userProfileURL": "https://www.linkedin.com/in/nereaarreguiqa",
+          "dataId": "urn:li:comment:(activity:7288464341509525505,7288546340949655552)"
+        }
+      ],
+      "commentAdded": "Exciting strategies! AI in regression testing can truly transform efficiency. Id love to hear more about the results youve achieved!"
+    },
+    {
+      "postId": "urn:li:activity:7287756274069381121",
+      "linkedInUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7287756274069381121",
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    },
+    {
+      "postId": "urn:li:activity:7288568371103580160",
+      "linkedInUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7288568371103580160",
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    }
+  ],
+  "errors": [
+    {
+      "postId": "urn:li:activity:7288464341509525505",
+      "url": "https://www.linkedin.com/in/nereaarreguiqa?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEHgTbsBKHMzatlhgCsnqQX4ohcNYmxBmz8",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7287756274069381121",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7288568371103580160",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL."
+      ]
+    }
+  ]
+}

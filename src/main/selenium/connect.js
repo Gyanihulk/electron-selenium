@@ -41,9 +41,14 @@ async function connectWithFirst15People(driver) {
 
                         const connectSpan = await card.findElement(By.xpath(".//span[contains(text(), 'Connect')]"));
                         const connectButton = await connectSpan.findElement(By.xpath("ancestor::button"));
-
+                        await connectButton
+                        .getDriver()
+                        .executeScript(
+                          "arguments[0].scrollIntoView({ behavior: 'smooth', block: 'center' });",
+                          connectButton
+                        );
                         await driver.executeScript("arguments[0].click();", connectButton);
-
+                        
                         // Wait for potential toast message and close it
                         await closeToastIfPresent(driver);
 

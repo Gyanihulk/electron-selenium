@@ -1,0 +1,253 @@
+{
+  "posts": [
+    {
+      "postId": "urn:li:activity:7287148153756073987",
+      "linkedInUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7287148153756073987",
+      "url": "https://www.linkedin.com/in/walterlcrosby?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABnRy4BfAi04dsWOrVfiDq5Fz8C2uALVWA",
+      "name": "Walter Crosby\nWalter Crosby",
+      "content": "Do you want to improve the performance of your team? \n\nYour team might be a leadership team, a sales team, an operations team, a sports team, or even a family.\n\nMy friend and colleague Nate Tutas of Mind Vault discussed a simple formula for you to follow.\n\nPerformance = Potential – Interference. With anyone, it is helping them understand what is getting in their way of doing the activity, changing the behavior, or adjusting the mindset.\n\nThis episode is the start of a new series for you to learn about coaching and leading a team!\n\nYou can listen to the episode here \n\nGo grab a cocktail, a cigar and strap in for another great episode of Sales and Cigars.",
+      "reactions": {
+        "likes": "1",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [],
+      "commentAdded": "Great insights, Nate! Understanding and minimizing interference is key to unlocking a teams true potential. Looking forward to the series! 🍹✨"
+    },
+    {
+      "postId": null,
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    },
+    {
+      "postId": null,
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    },
+    {
+      "postId": null,
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    },
+    {
+      "postId": null,
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    },
+    {
+      "postId": null,
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    },
+    {
+      "postId": null,
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    },
+    {
+      "postId": null,
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    },
+    {
+      "postId": null,
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    },
+    {
+      "postId": null,
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    }
+  ],
+  "errors": [
+    {
+      "postId": "urn:li:activity:7287148153756073987",
+      "url": "https://www.linkedin.com/in/walterlcrosby?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABnRy4BfAi04dsWOrVfiDq5Fz8C2uALVWA",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "unknown",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post ID.",
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "unknown",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post ID.",
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "unknown",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post ID.",
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "unknown",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post ID.",
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "unknown",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post ID.",
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "unknown",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post ID.",
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "unknown",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post ID.",
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "unknown",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post ID.",
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "unknown",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post ID.",
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL."
+      ]
+    }
+  ]
+}

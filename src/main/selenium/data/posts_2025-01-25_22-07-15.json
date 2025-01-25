@@ -1,0 +1,9 @@
+{
+  "posts": [],
+  "errors": [
+    {
+      "message": "General error while scraping posts.",
+      "details": "javascript error: Cannot read properties of null (reading 'scrollIntoView')\n  (Session info: chrome=132.0.6834.110)"
+    }
+  ]
+}

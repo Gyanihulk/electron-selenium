@@ -1,0 +1,78 @@
+{
+  "posts": [
+    {
+      "postId": "urn:li:activity:7288207533578608640",
+      "linkedInUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7288207533578608640",
+      "url": "https://www.linkedin.com/in/mrjandeepsingh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABtfsFIBJqNKfG9LGAP21uAA8FMtfaWd-_w",
+      "name": "Jandeep Singh Sethi\nJandeep Singh Sethi",
+      "content": " Culture isn’t an HR problem— it’s a leadership responsibility. Look up, not down.\n\nYou see, HR isn’t here to fix your leadership failures.\n\nBlaming HR for your toxic culture? That’s like blaming a mirror  for your reflection. \n\n What HR actually does:\nThey’re the strategists shaping your company’s core by:\n- Building top-notch hiring systems\n- Structuring fair and competitive pay\n- Mapping out clear career growth opportunities\n- Measuring employee engagement\n- Equipping managers to lead better\n- Keeping performance evaluations fair\n\n What HR can’t do:\n\nHR isn’t your corporate miracle worker. They can’t:\n- Force leaders to listen\n- Make absent executives show up\n- Fix deep-seated toxic behavior\n- Rebuild broken trust\n- Make leadership actually care.\n\nEven the best HR team can't fix leadership failures like:\n\n- Empty promises from the top\n- Leaders hiding behind closed doors\n- Ignoring employee concerns\n- Saying one thing but doing another\n- Modeling toxic behaviors themselves\n\nHR can’t outshine a disengaged leadership team.\n\nHR can’t fix what bad leadership breaks.\n\nCulture always flows from the top—leaders make or break it.\n\nIf leadership doesn’t give a damn, no HR initiative can save you.\n\nImage & quote credit: Wouter Durville",
+      "reactions": {
+        "likes": "1,819",
+        "comments": "276 comments",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [],
+      "commentAdded": "Absolutely! Strong leadership is the foundation of a thriving culture. HR can guide, but change starts at the top. Lets lead by example!"
+    },
+    {
+      "postId": "urn:li:activity:7028125096435154944",
+      "linkedInUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7028125096435154944",
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    },
+    {
+      "postId": "urn:li:activity:7288573570010501120",
+      "linkedInUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7288573570010501120",
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    }
+  ],
+  "errors": [
+    {
+      "postId": "urn:li:activity:7288207533578608640",
+      "url": "https://www.linkedin.com/in/mrjandeepsingh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABtfsFIBJqNKfG9LGAP21uAA8FMtfaWd-_w",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7028125096435154944",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7288573570010501120",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL."
+      ]
+    }
+  ]
+}

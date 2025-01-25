@@ -44,6 +44,7 @@ async function followUpNewlyConnectedConnections(driver) {
           name: name.trim(),
           connectedTime: connectionTime.trim(),
           messageSent: messageSent,
+          currentDateTime: new Date().toISOString(),
         };
 
         // Update local array and save to JSON after each card is processed
@@ -93,11 +94,13 @@ async function sendMessage(driver, card) {
     const customMessage = `
 Hey ${name.trim()}, great to connect with you!
 
-I'm Adamya Kumar, and I'm excited to share more about what I do. I run a software development agency focused on delivering scalable, high-performance backend solutions and top-notch UI/UX for mobile apps and websites. Our goal is to support innovative entrepreneurs by providing cost-effective solutions without compromising on quality.
+I'm Adamya Kumar, and I'm excited to share more about what I do. I have a passion for building innovative software solutions and fostering a learning community for people who love coding and technology. Recently, I created a GTA-like game, and I’m looking for testers to help improve it. If you're interested, check out my post on LinkedIn and feel free to reach out!
 
-Beyond development, I'm also a mentor helping entrepreneurs bring their products to market successfully. You can check out my portfolio here: [My Portfolio](https://lms-platform-xi-ebon.vercel.app/).
+I also run a YouTube channel where I share tutorials on coding, fitness boxing, and even horse riding! If you enjoy the content, do subscribe for new updates and join the journey. https://www.youtube.com/@GyaniHulk
 
-Feel free to take a look at my profile to learn more about my journey and expertise. Looking forward to exploring potential collaborations!
+Additionally, you can check out my portfolio here: https://lms-platform-xi-ebon.vercel.app/ , where you can track your course progress and explore other projects I'm working on.
+
+Let’s connect, collaborate, and create a thriving learning community together!
 
 Best Regards,
 Adamya Kumar

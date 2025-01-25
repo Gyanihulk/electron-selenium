@@ -32,8 +32,7 @@ async function scrapePosts(driver) {
   // Wait for the page to load completely
   await driver.sleep(5000); // Adjust based on actual page load time
 
-  const postsData = []; // Array to store all posts
-  const errors = []; // To track missing or failed information globally
+  // To track missing or failed information globally
 
   try {
     // Wait until posts are located
@@ -43,141 +42,65 @@ async function scrapePosts(driver) {
     );
 
     // Find all post containers
-    const posts = await driver.findElements(
-      By.css('div[data-id^="urn:li:activity:"]')
-    );
-    console.log(`Found ${posts.length} posts on the page.`);
+    const targetPostCount = 50; // Target number of posts
+    let totalPosts = [];
 
-    // Iterate over each post
-    for (const post of posts) {
-      const postDetails = {};
-      let postErrors = []; // To track errors for this specific post
-
-      try {
-        // Extract activity ID (post ID)
-        const postId=await post.getAttribute("data-id")
-        postDetails.postId = await post.getAttribute("data-id");
-        postDetails.linkedInUrl = `https://www.linkedin.com/feed/update/${postId}`;
-      } catch (error) {
-        postErrors.push("Failed to fetch post ID.");
-        postDetails.postId = null;
-      }
-
-      try {
-        // Extract URL of the post
-        const postUrlElement = await post.findElement(
-          By.css(".update-components-actor__meta-link")
+    try {
+      while (totalPosts.length < targetPostCount) {
+        const delay = Math.floor(Math.random() * 5000) + 10000; // Random delay between 5-8 seconds
+        console.log(`Waiting for ${delay} ms...`);
+        await driver.sleep(delay);
+        // Find all post containers on the page
+        const posts = await driver.findElements(
+          By.css('div[data-id^="urn:li:activity:"]')
         );
-        postDetails.url = await postUrlElement.getAttribute("href");
-      } catch (error) {
-        postErrors.push("Failed to fetch post URL.");
-        postDetails.url = null;
-      }
+        console.log(`Found ${posts.length} posts on the page.`);
 
-      try {
-        // Extract name
-        const nameElement = await post.findElement(
-          By.css(".update-components-actor__title span[dir='ltr']")
-        );
-        postDetails.name = await nameElement.getText();
-      } catch (error) {
-        postErrors.push("Failed to fetch name.");
-        postDetails.name = null;
-      }
-
-      try {
-        // Extract post content
-        const contentElement = await post.findElement(
-          By.css(".update-components-update-v2__commentary span[dir='ltr']")
-        );
-        postDetails.content = sanitizeEmojis(await contentElement.getText());
-      } catch (error) {
-        postErrors.push("Failed to fetch content.");
-        postDetails.content = null;
-      }
-
-      try {
-        // Extract reactions (likes, comments, shares)
-        const reactionsContainer = await post.findElement(
-          By.css(".social-details-social-counts")
-        );
-        const reactions = await reactionsContainer.findElements(
-          By.css(".social-details-social-counts__count-value")
-        );
-
-        postDetails.reactions = {
-          likes: reactions.length >= 1 ? await reactions[0].getText() : "0",
-          comments: reactions.length >= 2 ? await reactions[1].getText() : "0",
-          shares: reactions.length >= 3 ? await reactions[2].getText() : "0",
-        };
-      } catch (error) {
-        postErrors.push("Failed to fetch reactions.");
-        postDetails.reactions = { likes: "0", comments: "0", shares: "0" };
-      }
-
-      try {
-        // Extract media URL (if available)
-        const mediaElement = await post.findElement(
-          By.css(".update-components-linkedin-video__container video")
-        );
-        postDetails.mediaUrl = await mediaElement.getAttribute("src");
-      } catch (error) {
-        postErrors.push("Failed to fetch media URL.");
-        postDetails.mediaUrl = null;
-      }
-
-      try {
-        const comments = await fetchComments(post);
-        // console.log(comments);
-        postDetails.comments = comments;
-        if ((comments.length > 0, postDetails.content)) {
-          const generatedcomment = await generatePostComment(
-            postDetails.content,
-            []
-          );
-        
-          //   console.log(await post.getAttribute('innerHTML'));
-          const cleanedComment = generatedcomment.generated_comment.replace(
-            /["']/g,
-            ""
-          ); // Removes single and double quotes
-          console.log("Cleaned Content:", postDetails.content);
-          // Add the current post's details to the postsData array
-          console.log("Cleaned Comment:", cleanedComment);
-          postDetails.commentAdded = cleanedComment;
-          // Insert the cleaned comment and submit
-          await insertCommentAndSubmit(post, cleanedComment);
-          // insertCommentAndSubmit(post, generatedcomment.generated_comment);
+        // Check if new posts were loaded
+        if (posts.length > totalPosts.length) {
+          totalPosts = posts;
+          console.log(`Total posts loaded so far: ${totalPosts.length}`);
+        } else {
+          console.log("No new posts loaded, breaking the loop.");
+          break; // Exit if no new posts are loaded
         }
-      } catch (error) {
-        console.error(error);
+
+        // Scroll to the last post
+        if (totalPosts.length > 0) {
+          console.log("Trying to scroll to the last post.");
+          await driver.executeScript(
+            "arguments[0].scrollIntoView({ behavior: 'smooth', block: 'center' });",
+            totalPosts[totalPosts.length - 1]
+          );
+
+          // Wait 5-8 seconds for new posts to load
+          const delay = Math.floor(Math.random() * 3000) + 6000; // Random delay between 5-8 seconds
+          console.log(`Waiting for ${delay} ms...`);
+          await driver.sleep(delay);
+        }
       }
 
-      postsData.push(postDetails);
-
-      // Add errors (if any) for this post
-      if (postErrors.length > 0) {
-        errors.push({
-          postId: postDetails.postId || "unknown",
-          url: postDetails.url || "unknown",
-          errors: postErrors,
-        });
-      }
+      console.log(`Total posts loaded: ${totalPosts.length}`);
+    } catch (error) {
+      console.error("Error during scrolling:", error);
     }
-
+await interatePosts(totalPosts)
     // Generate a unique filename with the current date and time
-    const outputFilePath = path.join(__dirname, getFilenameWithDate("posts"));
+    const outputFilePath = path.join(
+      __dirname,
+      "data",
+      getFilenameWithDate("posts")
+    );
     const dataToSave = { posts: postsData, errors };
 
     try {
       fs.writeFileSync(outputFilePath, JSON.stringify(dataToSave, null, 2));
       console.log(`Posts and errors saved to ${outputFilePath}`);
-      await driver.quit();
     } catch (fileError) {
       console.error("Failed to save data to file:", fileError);
     }
 
-    return { posts: postsData, errors };
+    
   } catch (error) {
     console.error("Error while scraping posts:", error);
     const generalErrorData = {
@@ -189,12 +112,137 @@ async function scrapePosts(driver) {
         },
       ],
     };
-    const outputFilePath = path.join(__dirname, getFilenameWithDate("posts"));
-    fs.writeFileSync(outputFilePath, JSON.stringify(generalErrorData, null, 2));
-    return generalErrorData;
+    // const outputFilePath = path.join(__dirname, "data",getFilenameWithDate("posts"));
+    // fs.writeFileSync(outputFilePath, JSON.stringify(generalErrorData, null, 2));
+    // return generalErrorData;
   }
 }
+async function interatePosts(totalPosts) {
+  const postsData = []; // Array to store all posts
+  const errors = [];
+  // Iterate over each post
+  for (const [index, post] of totalPosts.entries()) {
+    const postDetails = {};
+    let postErrors = []; // To track errors for this specific post
 
+    try {
+      // Extract activity ID (post ID)
+      const postId = await post.getAttribute("data-id");
+      postDetails.postId = await post.getAttribute("data-id");
+      postDetails.linkedInUrl = `https://www.linkedin.com/feed/update/${postId}`;
+    } catch (error) {
+      postErrors.push("Failed to fetch post ID.");
+      postDetails.postId = null;
+    }
+
+    try {
+      // Extract URL of the post
+      const postUrlElement = await post.findElement(
+        By.css(".update-components-actor__meta-link")
+      );
+      postDetails.url = await postUrlElement.getAttribute("href");
+    } catch (error) {
+      postErrors.push("Failed to fetch post URL.");
+      postDetails.url = null;
+    }
+
+    try {
+      // Extract name
+      const nameElement = await post.findElement(
+        By.css(".update-components-actor__title span[dir='ltr']")
+      );
+      postDetails.name = await nameElement.getText();
+    } catch (error) {
+      postErrors.push("Failed to fetch name.");
+      postDetails.name = null;
+    }
+
+    try {
+      // Extract post content
+      const contentElement = await post.findElement(
+        By.css(".update-components-update-v2__commentary span[dir='ltr']")
+      );
+      postDetails.content = sanitizeEmojis(await contentElement.getText());
+    } catch (error) {
+      postErrors.push("Failed to fetch content.");
+      postDetails.content = null;
+    }
+
+    try {
+      // Extract reactions (likes, comments, shares)
+      const reactionsContainer = await post.findElement(
+        By.css(".social-details-social-counts")
+      );
+      const reactions = await reactionsContainer.findElements(
+        By.css(".social-details-social-counts__count-value")
+      );
+
+      postDetails.reactions = {
+        likes: reactions.length >= 1 ? await reactions[0].getText() : "0",
+        comments: reactions.length >= 2 ? await reactions[1].getText() : "0",
+        shares: reactions.length >= 3 ? await reactions[2].getText() : "0",
+      };
+    } catch (error) {
+      postErrors.push("Failed to fetch reactions.");
+      postDetails.reactions = { likes: "0", comments: "0", shares: "0" };
+    }
+
+    try {
+      // Extract media URL (if available)
+      const mediaElement = await post.findElement(
+        By.css(".update-components-linkedin-video__container video")
+      );
+      postDetails.mediaUrl = await mediaElement.getAttribute("src");
+    } catch (error) {
+      postErrors.push("Failed to fetch media URL.");
+      postDetails.mediaUrl = null;
+    }
+
+    try {
+      const comments = await fetchComments(post);
+      // console.log(comments);
+      postDetails.comments = comments;
+      if ((comments.length > 0, postDetails.content)) {
+        const generatedcomment = await generatePostComment(
+          postDetails.content,
+          []
+        );
+
+        //   console.log(await post.getAttribute('innerHTML'));
+        const cleanedComment = generatedcomment.generated_comment.replace(
+          /["']/g,
+          ""
+        ); // Removes single and double quotes
+
+        // Add the current post's details to the postsData array
+        console.log(
+          "Comment added to",
+          index,
+          "Cleaned Comment:",
+          cleanedComment
+        );
+        postDetails.commentAdded = cleanedComment;
+        // Insert the cleaned comment and submit
+        await insertCommentAndSubmit(post, cleanedComment);
+        // insertCommentAndSubmit(post, generatedcomment.generated_comment);
+      }
+    } catch (error) {
+      console.error(error);
+    }
+
+    postsData.push(postDetails);
+
+    // Add errors (if any) for this post
+    if (postErrors.length > 0) {
+      errors.push({
+        postId: postDetails.postId || "unknown",
+        url: postDetails.url || "unknown",
+        errors: postErrors,
+      });
+    }
+  }
+  return { posts: postsData, errors };
+}
 async function fetchComments(post) {
   try {
     // Click the "Comment" button
@@ -303,18 +351,16 @@ async function insertCommentAndSubmit(post, generatedComment) {
 
     // Locate and click the like button for the current post
     const likeButton = await post.findElement(
-      By.css("button.artdeco-button.social-actions-button.react-button__trigger")
+      By.css(
+        "button.artdeco-button.social-actions-button.react-button__trigger"
+      )
     );
 
     const actions = post.getDriver().actions();
 
     // Ensure the like button is visible and enabled
-    await post
-      .getDriver()
-      .wait(until.elementIsVisible(likeButton), 5000);
-    await post
-      .getDriver()
-      .wait(until.elementIsEnabled(likeButton), 5000);
+    await post.getDriver().wait(until.elementIsVisible(likeButton), 5000);
+    await post.getDriver().wait(until.elementIsEnabled(likeButton), 5000);
 
     // Move to the button and click it
     // await actions.move({ origin: likeButton }).click().perform();
@@ -333,13 +379,12 @@ async function insertCommentAndSubmit(post, generatedComment) {
 
     await post.getDriver().wait(until.elementIsVisible(commentButton), 5000);
     await post.getDriver().wait(until.elementIsEnabled(commentButton), 5000);
-await randomDelay();
+    await randomDelay();
     await actions.move({ origin: commentButton }).click().perform();
     console.log("Comment submitted successfully.");
   } catch (error) {
     console.error("Error inserting and submitting comment:", error.message);
   }
 }
-
 
 module.exports = { scrapePosts };

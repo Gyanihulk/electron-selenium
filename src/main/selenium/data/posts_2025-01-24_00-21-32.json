@@ -1,0 +1,78 @@
+{
+  "posts": [
+    {
+      "postId": "urn:li:activity:7288560285647335424",
+      "linkedInUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7288560285647335424",
+      "url": "https://www.linkedin.com/in/rickconlowservantleadership?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAPUxFwB6p1p6ESvdwgOkdRMuNdW3KDrJTU",
+      "name": "Richard A. Conlow\nRichard A. Conlow",
+      "content": "WHAT GREAT LEADERS DO IN A CRISIS: https://buff.ly/3efbYQN \nhashtag\n#leadership \nhashtag\n#management \nhashtag\n#servantleadership \nhashtag",
+      "reactions": {
+        "likes": "1",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": [],
+      "commentAdded": "In times of crisis, true leadership shines through. This article is a must-read for anyone looking to lead with purpose! #leadership #servantleadership"
+    },
+    {
+      "postId": "urn:li:activity:7277880720981696512",
+      "linkedInUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7277880720981696512",
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    },
+    {
+      "postId": "urn:li:activity:7288601270980952064",
+      "linkedInUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7288601270980952064",
+      "url": null,
+      "name": null,
+      "content": null,
+      "reactions": {
+        "likes": "0",
+        "comments": "0",
+        "shares": "0"
+      },
+      "mediaUrl": null,
+      "comments": []
+    }
+  ],
+  "errors": [
+    {
+      "postId": "urn:li:activity:7288560285647335424",
+      "url": "https://www.linkedin.com/in/rickconlowservantleadership?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAPUxFwB6p1p6ESvdwgOkdRMuNdW3KDrJTU",
+      "errors": [
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7277880720981696512",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL."
+      ]
+    },
+    {
+      "postId": "urn:li:activity:7288601270980952064",
+      "url": "unknown",
+      "errors": [
+        "Failed to fetch post URL.",
+        "Failed to fetch name.",
+        "Failed to fetch content.",
+        "Failed to fetch reactions.",
+        "Failed to fetch media URL."
+      ]
+    }
+  ]
+}

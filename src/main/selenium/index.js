@@ -43,6 +43,8 @@ async function performTask(task) {
         break;
 
       case "fetchPosts":
+       
+
         await scrapePosts(driver);
         break;
 
