@@ -7,10 +7,15 @@ const { randomDelay } = require("../../lib/randomDelay");
 // Helper function to generate a unique filename with date and time
 function getFilenameWithDate(baseName) {
   const now = new Date();
-  const datePart = now.toISOString().split("T")[0]; // YYYY-MM-DD
-  const timePart = now.toTimeString().split(" ")[0].replace(/:/g, "-"); // HH-MM-SS
+  const datePart = `${String(now.getDate()).padStart(2, "0")}-${String(
+    now.getMonth() + 1
+  ).padStart(2, "0")}-${now.getFullYear()}`; // DD-MM-YYYY
+  const timePart = `${String(now.getHours()).padStart(2, "0")}-${String(
+    now.getMinutes()
+  ).padStart(2, "0")}`; // HH-MM
   return `${baseName}_${datePart}_${timePart}.json`;
 }
+
 /**
  * Sanitize emojis in a string by removing or replacing them with a placeholder.
  *
@@ -36,71 +41,81 @@ async function scrapePosts(driver) {
 
   try {
     // Wait until posts are located
-    await driver.wait(
-      until.elementsLocated(By.css('div[data-id^="urn:li:activity:"]')),
-      10000
-    );
-
+    let fullPostInfo = [];
     // Find all post containers
     const targetPostCount = 50; // Target number of posts
     let totalPosts = [];
-
+    let commentedPosts = 0;
     try {
-      while (totalPosts.length < targetPostCount) {
-        const delay = Math.floor(Math.random() * 5000) + 10000; // Random delay between 5-8 seconds
+      while (commentedPosts < targetPostCount) {
+        const delay = Math.floor(Math.random() * 5000) + 10000; // Random delay between 10-15 seconds
         console.log(`Waiting for ${delay} ms...`);
         await driver.sleep(delay);
+
+        await driver.wait(
+          until.elementsLocated(By.css('div[data-id^="urn:li:activity:"]')),
+          10000
+        );
+
         // Find all post containers on the page
         const posts = await driver.findElements(
           By.css('div[data-id^="urn:li:activity:"]')
         );
         console.log(`Found ${posts.length} posts on the page.`);
 
-        // Check if new posts were loaded
-        if (posts.length > totalPosts.length) {
-          totalPosts = posts;
-          console.log(`Total posts loaded so far: ${totalPosts.length}`);
-        } else {
+        // Calculate the number of new posts
+        const newPosts = posts.slice(totalPosts.length);
+        console.log(`New posts loaded: ${newPosts.length}`);
+
+        // If no new posts are loaded, break the loop
+        if (newPosts.length === 0) {
           console.log("No new posts loaded, breaking the loop.");
-          break; // Exit if no new posts are loaded
+          break;
         }
+
+        // Process only the new posts
+        const dataToSave = await interatePosts(newPosts);
+        fullPostInfo.push(dataToSave); // Replace with your processing logic
+        for (const post of newPosts) {
+          commentedPosts++; // Increment the commented post count
+          if (commentedPosts >= targetPostCount) break; // Exit loop if target is reached
+        }
+
+        // Update totalPosts with the latest posts
+        totalPosts = posts;
 
         // Scroll to the last post
-        if (totalPosts.length > 0) {
-          console.log("Trying to scroll to the last post.");
-          await driver.executeScript(
-            "arguments[0].scrollIntoView({ behavior: 'smooth', block: 'center' });",
-            totalPosts[totalPosts.length - 1]
-          );
+        console.log("Trying to scroll to the last post.");
+        await driver.executeScript(
+          "arguments[0].scrollIntoView({ behavior: 'smooth', block: 'center' });",
+          posts[posts.length - 1] // Scroll to the last post
+        );
 
-          // Wait 5-8 seconds for new posts to load
-          const delay = Math.floor(Math.random() * 3000) + 6000; // Random delay between 5-8 seconds
-          console.log(`Waiting for ${delay} ms...`);
-          await driver.sleep(delay);
-        }
+        // Wait 5-8 seconds for new posts to load
+        const scrollDelay = Math.floor(Math.random() * 3000) + 6000; // Random delay between 6-9 seconds
+        console.log(`Waiting for ${scrollDelay} ms...`);
+        await driver.sleep(scrollDelay);
       }
 
+      console.log("Target post count reached or no more posts to process.");
       console.log(`Total posts loaded: ${totalPosts.length}`);
     } catch (error) {
       console.error("Error during scrolling:", error);
     }
-await interatePosts(totalPosts)
-    // Generate a unique filename with the current date and time
-    const outputFilePath = path.join(
-      __dirname,
-      "data",
-      getFilenameWithDate("posts")
-    );
-    const dataToSave = { posts: postsData, errors };
 
     try {
-      fs.writeFileSync(outputFilePath, JSON.stringify(dataToSave, null, 2));
+      // Generate a unique filename with the current date and time
+      const outputFilePath = path.join(
+        __dirname,
+        "data",
+        getFilenameWithDate("posts")
+      );
+      fs.writeFileSync(outputFilePath, JSON.stringify(fullPostInfo, null, 2));
+
       console.log(`Posts and errors saved to ${outputFilePath}`);
     } catch (fileError) {
       console.error("Failed to save data to file:", fileError);
     }
-
-    
   } catch (error) {
     console.error("Error while scraping posts:", error);
     const generalErrorData = {
@@ -241,7 +256,7 @@ async function interatePosts(totalPosts) {
       });
     }
   }
-  return { posts: postsData, errors };
+  return { postsData, errors };
 }
 async function fetchComments(post) {
   try {

@@ -26,9 +26,32 @@ const generatePostComment = async (postContent, existingComments) => {
     throw error; // Rethrow the error for further handling
   }
 };
+const generateReply = async (conversation) => {
+  const endpoint = 'http://localhost:8000/api/linkedin/generate-message-suggestion/';
 
+  const requestBody = {
+    conversation,
+  };
+
+  try {
+    const response = await axios.post(endpoint, requestBody, {
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+
+    return response.data; // Return the data from the API response
+  } catch (error) {
+    if (error.response) {
+      console.error('Error in generateReply:', error.response.data);
+    } else {
+      console.error('Error in generateReply:', error.message);
+    }
+    throw error; // Rethrow the error for further handling
+  }
+};
 module.exports = {
-  generatePostComment,
+  generatePostComment,generateReply,
 };
 
 

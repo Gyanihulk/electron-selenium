@@ -9,6 +9,7 @@ const { catchUpWithFirst15People } = require("./catchUp");
 const { withdrawConnections } = require("./withdrawConnections");
 const { scrapePosts } = require("./feed");
 const { notifications } = require("./notifications");
+const { messaging } = require("./fetchHtmlAndConnect");
 
 /**
  * Perform task based on the given parameter.
@@ -43,8 +44,6 @@ async function performTask(task) {
         break;
 
       case "fetchPosts":
-       
-
         await scrapePosts(driver);
         break;
 
@@ -57,7 +56,10 @@ async function performTask(task) {
           await notifications(driver);
         }
         break;
+      case "messaging":
+        await messaging(driver);
 
+        break;
       default:
         console.error(
           "Invalid task parameter. Please provide one of: 'connect', 'followUp', 'catchUp'."

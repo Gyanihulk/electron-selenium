@@ -20,8 +20,8 @@ function App() {
   const notifications = () => {
     window.electron.ipcRenderer.send('notification');
   };
-  const leetcode = () => {
-    window.electron.ipcRenderer.send('leetcode');
+  const messaging = () => {
+    window.electron.ipcRenderer.send('messaging');
   };
   return (
     <div>
@@ -32,7 +32,7 @@ function App() {
       <button onClick={catchUpNewConnections}>Catch Up Connections </button>
       <button onClick={scrapePosts}>Add comment and like posts </button>
       <button onClick={withdrawConnections}>withdraw connections</button>
-      <button onClick={leetcode}>leetcode</button>
+      <button onClick={messaging}>messaging</button>
     </div>
   );
 }

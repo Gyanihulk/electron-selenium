@@ -79,4 +79,36 @@ ipcMain.on('leetcode', async (event) => {
         event.reply('catch-up-connections-request-failure', error.message);
     }
 })
-module.exports = {}; 
+
+ipcMain.on('messaging', async (event) => {
+    console.log('IPC message received: withdraw-connections');
+    try {
+        performTask('messaging');
+        event.reply('catch-up-connections-request-success', 'Task completed successfully.');
+    } catch (error) {
+        console.error('Selenium failed:', error);
+        event.reply('catch-up-connections-request-failure', error.message);
+    }
+})
+
+/**
+ * Generic handler for IPC events.
+ * @param {string} channel - The IPC channel to listen for.
+ * @param {Function} task - The task function to execute when the event is received.
+ */
+function handleIpcEvent(channel, task) {
+    ipcMain.on(channel, async (event, ...args) => {
+        console.log(`IPC message received: ${channel}`);
+        try {
+            // Execute the provided task function
+            performTask(task);
+            // Send success reply to the renderer process
+            event.reply(`${channel}-success`, result || 'Task completed successfully.');
+        } catch (error) {
+            console.error(`Error in channel ${channel}:`, error);
+            // Send failure reply to the renderer process
+            event.reply(`${channel}-failure`, error.message || 'An error occurred.');
+        }
+    });
+}
+module.exports = {handleIpcEvent}; 
