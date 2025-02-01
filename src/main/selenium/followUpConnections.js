@@ -183,7 +183,8 @@ function isConnectedWithin24Hours(connectionTime) {
     if (
       (unit.startsWith("hour") && value <= 24) ||
       unit.startsWith("minute") ||
-      unit.startsWith("day")
+      unit.startsWith("day") ||
+      unit.startsWith("days") || value <= 2
     ) {
       return true;
     }

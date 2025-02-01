@@ -1,5 +1,5 @@
 // selenium/connect.js
-const { By } = require("selenium-webdriver");
+const { By, until } = require("selenium-webdriver");
 
 async function randomDelay() {
     const delay = Math.floor(Math.random() * 5000) + 1000;
@@ -26,7 +26,7 @@ async function connectWithFirst15People(driver) {
         let cardsProcessed = 0;
 
         while (peopleConnected < 15) {
-            let cohortCards = await driver.findElements(By.css("div[data-view-name='cohort-card']"));
+            let cohortCards = await driver.findElements(By.css("section.artdeco-card.discover-entity-type-card"));
             console.log(`Currently found ${cohortCards.length} cohort cards.`);
 
             for (let i = cardsProcessed; i < cohortCards.length && peopleConnected < 15; i++) {
@@ -38,15 +38,10 @@ async function connectWithFirst15People(driver) {
                     try {
                         const card = cohortCards[i];
                         await driver.executeScript("arguments[0].scrollIntoView({block: 'center'});", card);
+                        await driver.wait(until.elementLocated(By.css("button.artdeco-button--secondary")), 5000);
 
-                        const connectSpan = await card.findElement(By.xpath(".//span[contains(text(), 'Connect')]"));
-                        const connectButton = await connectSpan.findElement(By.xpath("ancestor::button"));
-                        await connectButton
-                        .getDriver()
-                        .executeScript(
-                          "arguments[0].scrollIntoView({ behavior: 'smooth', block: 'center' });",
-                          connectButton
-                        );
+                        const connectButton = await card.findElement(By.css("button.artdeco-button--secondary"));
+
                         await driver.executeScript("arguments[0].click();", connectButton);
                         
                         // Wait for potential toast message and close it
@@ -55,6 +50,7 @@ async function connectWithFirst15People(driver) {
                         connected = true;
                         peopleConnected++;
                         console.log(`Successfully connected with card ${i + 1} (${peopleConnected}/15)`);
+
                         await driver.sleep(2000);
                     } catch (error) {
                         console.warn(`Retrying card ${i + 1}:`, error);
@@ -78,5 +74,6 @@ async function connectWithFirst15People(driver) {
         console.error("Error while connecting with people:", error);
     }
 }
+
 
 module.exports = { connectWithFirst15People };
