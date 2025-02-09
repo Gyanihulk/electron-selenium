@@ -43,7 +43,7 @@ async function scrapePosts(driver) {
     // Wait until posts are located
     let fullPostInfo = [];
     // Find all post containers
-    const targetPostCount = 50; // Target number of posts
+    const targetPostCount = 100; // Target number of posts
     let totalPosts = [];
     let commentedPosts = 0;
     try {

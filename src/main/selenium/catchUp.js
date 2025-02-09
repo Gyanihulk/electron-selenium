@@ -73,7 +73,7 @@ async function catchUpWithFirst15People(driver) {
     let totalNurtureCards = [];
     let previousCardCount = 0;
 
-    while (totalNurtureCards.length < 10) {
+    while (totalNurtureCards.length < 50) {
       // Find all nurture cards based on the updated card structure
       let nurtureCards = await driver.findElements(
         By.css("article.props-s-card[data-view-name='props-nurture-card']")
@@ -105,11 +105,11 @@ async function catchUpWithFirst15People(driver) {
     );
 
     // Iterate over the first 15 nurture cards
-    for (let i = 0; i < Math.min(15, totalNurtureCards.length); i++) {
+    for (let i = 0; i <  totalNurtureCards.length; i++) {
       try {
         const card = totalNurtureCards[i];
 
-        // Find the "Wishing you a very happy birthday!" button inside the card
+        // Find the  button inside the card
         let button = await card.findElement(
           By.xpath(".//button[contains(@class, 'props-s-cta')]")
         );
@@ -117,14 +117,32 @@ async function catchUpWithFirst15People(driver) {
         if (button) {
           await driver.wait(until.elementIsVisible(button), 10000);
           await driver.executeScript("arguments[0].click();", button); // Click the button
-          console.log(`Clicked birthday message button for person ${i + 1}`);
+          console.log(`Clicked  message button for person ${i + 1}`);
         } else {
           console.log(
-            `No birthday message button found in card ${i + 1}. Skipping.`
+            `No  message button found in card ${i + 1}. Skipping.`
           );
           continue;
         }
-
+        await randomDelay();
+        let sendButton = await driver.wait(
+          until.elementLocated(By.css('.msg-form__send-button.artdeco-button.artdeco-button--1')),
+          10000
+        );
+    
+        if (sendButton) {
+                  const buttonHtml = await driver.executeScript(
+              "return arguments[0].outerHTML;",
+              sendButton
+            );
+            console.log(`Correct sendButton  HTML:\n${buttonHtml}`);
+          await driver.wait(until.elementIsVisible(sendButton), 10000);
+          await driver.executeScript("arguments[0].click();", sendButton); // Click the button
+          console.log("Clicked the message send button.");
+        } else {
+          console.log("No message send button found.");
+        }
+    
         await randomDelay(); // Wait for the message dialog to appear
 
         try {
@@ -144,11 +162,11 @@ async function catchUpWithFirst15People(driver) {
 
           if (closeButton) {
             // Log the correct close button HTML
-            const buttonHtml = await driver.executeScript(
-              "return arguments[0].outerHTML;",
-              closeButton
-            );
-            console.log(`Correct Close Button HTML:\n${buttonHtml}`);
+            // const buttonHtml = await driver.executeScript(
+            //   "return arguments[0].outerHTML;",
+            //   closeButton
+            // );
+            // console.log(`Correct Close Button HTML:\n${buttonHtml}`);
 
             // Click the correct close button
             await driver.executeScript("arguments[0].click();", closeButton);
