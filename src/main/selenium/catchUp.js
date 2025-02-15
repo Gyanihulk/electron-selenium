@@ -135,7 +135,7 @@ async function catchUpWithFirst15People(driver) {
               "return arguments[0].outerHTML;",
               sendButton
             );
-            console.log(`Correct sendButton  HTML:\n${buttonHtml}`);
+            // console.log(`Correct sendButton  HTML:\n${buttonHtml}`);
           await driver.wait(until.elementIsVisible(sendButton), 10000);
           await driver.executeScript("arguments[0].click();", sendButton); // Click the button
           console.log("Clicked the message send button.");
@@ -143,40 +143,7 @@ async function catchUpWithFirst15People(driver) {
           console.log("No message send button found.");
         }
     
-        await randomDelay(); // Wait for the message dialog to appear
-
-        try {
-          await driver.wait(
-            until.elementLocated(
-              By.xpath(
-                "//button[contains(@class, 'msg-overlay-bubble-header__control') and .//span[contains(text(), 'Close your conversation')]]"
-              )
-            ),
-            5000
-          );
-          const closeButton = await driver.findElement(
-            By.xpath(
-              "//button[contains(@class, 'msg-overlay-bubble-header__control') and .//span[contains(text(), 'Close your conversation')]]"
-            )
-          );
-
-          if (closeButton) {
-            // Log the correct close button HTML
-            // const buttonHtml = await driver.executeScript(
-            //   "return arguments[0].outerHTML;",
-            //   closeButton
-            // );
-            // console.log(`Correct Close Button HTML:\n${buttonHtml}`);
-
-            // Click the correct close button
-            await driver.executeScript("arguments[0].click();", closeButton);
-            console.log(`Closed message popup for person ${i + 1}`);
-          }
-        } catch (error) {
-          console.warn(
-            `No close button found for card ${i + 1}, skipping closure.`
-          );
-        }
+       
 
         await randomDelay();
         try {
@@ -209,7 +176,7 @@ async function catchUpWithFirst15People(driver) {
                   "return arguments[0].outerHTML;",
                   closeButton
                 );
-                console.log(`Correct Close Button HTML:\n${buttonHtml}`);
+                // console.log(`Correct Close Button HTML:\n${buttonHtml}`);
 
                 // Click the close button
                 await driver.executeScript(

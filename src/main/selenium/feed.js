@@ -3,6 +3,8 @@ const fs = require("fs");
 const path = require("path");
 const { generatePostComment } = require("../axios/linkedin");
 const { randomDelay } = require("../../lib/randomDelay");
+const { closeMessageWindow } = require("./closeMessageWindow");
+
 
 // Helper function to generate a unique filename with date and time
 function getFilenameWithDate(baseName) {
@@ -46,6 +48,9 @@ async function scrapePosts(driver) {
     const targetPostCount = 100; // Target number of posts
     let totalPosts = [];
     let commentedPosts = 0;
+    const delay = Math.floor(Math.random() * 5000) + 10000; // Random delay between 10-15 seconds
+    console.log(`Waiting for ${delay} ms...`);
+    
     try {
       while (commentedPosts < targetPostCount) {
         const delay = Math.floor(Math.random() * 5000) + 10000; // Random delay between 10-15 seconds
@@ -74,7 +79,7 @@ async function scrapePosts(driver) {
         }
 
         // Process only the new posts
-        const dataToSave = await interatePosts(newPosts);
+        const dataToSave = await interatePosts(driver,newPosts,commentedPosts);
         fullPostInfo.push(dataToSave); // Replace with your processing logic
         for (const post of newPosts) {
           commentedPosts++; // Increment the commented post count
@@ -132,15 +137,16 @@ async function scrapePosts(driver) {
     // return generalErrorData;
   }
 }
-async function interatePosts(totalPosts) {
+async function interatePosts(driver,totalPosts,commentedPosts) {
   const postsData = []; // Array to store all posts
   const errors = [];
   // Iterate over each post
   for (const [index, post] of totalPosts.entries()) {
     const postDetails = {};
     let postErrors = []; // To track errors for this specific post
-
+    
     try {
+      await closeMessageWindow(driver);
       // Extract activity ID (post ID)
       const postId = await post.getAttribute("data-id");
       postDetails.postId = await post.getAttribute("data-id");
@@ -232,7 +238,7 @@ async function interatePosts(totalPosts) {
         // Add the current post's details to the postsData array
         console.log(
           "Comment added to",
-          index,
+          commentedPosts ," - ",index,
           "Cleaned Comment:",
           cleanedComment
         );
@@ -399,6 +405,7 @@ async function insertCommentAndSubmit(post, generatedComment) {
     console.log("Comment submitted successfully.");
   } catch (error) {
     console.error("Error inserting and submitting comment:", error.message);
+    
   }
 }
 
